@@ -11,7 +11,7 @@ import (
 func (b *BazaarService) GetRequests(ctx context.Context, userId int) []models.UserItem {
 	var results = make([]models.UserItem, 0)
 
-	requests, err := b.Client.Keys(ctx, fmt.Sprintf(models.USER_TRACKING_ID, userId, "*")).Result()
+	requests, err := b.Client.Keys(ctx, fmt.Sprintf(models.USER_TRACKING_ID2, userId, "*")).Result()
 	if err != nil {
 		fmt.Printf(`get requests  error %v`, err)
 		return results
