@@ -10,6 +10,7 @@ import (
 func main() {
 	r := gin.New()
 	r.GET("/", HeathCheck)
+
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}
