@@ -5,6 +5,7 @@ import (
 	"log"
 
 	"github.com/go-redis/redis/v8"
+
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
 )
@@ -30,4 +31,16 @@ func (i *ItemService) getAll() []models.Item {
 	}
 
 	return items
+}
+
+func (i *ItemService) GetItem(id int) models.Item {
+	items := i.getAll()
+
+	for _, it := range items {
+		if it.ID == id {
+			return it
+		}
+	}
+
+	return models.Item{}
 }

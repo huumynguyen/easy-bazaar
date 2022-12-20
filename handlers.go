@@ -4,6 +4,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
+
 	"github.com/smg/easy-bazaar/services"
 )
 
@@ -20,4 +21,11 @@ func (h *handlers) getItems(c *gin.Context) {
 	items := h.itemService.GetItems(pi, ps)
 
 	c.JSON(200, items)
+}
+
+func (h *handlers) getItem(c *gin.Context) {
+	id, _ := strconv.Atoi(c.Query("id"))
+	item := h.itemService.GetItem(id)
+
+	c.JSON(200, item)
 }
