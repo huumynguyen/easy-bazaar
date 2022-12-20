@@ -10,6 +10,7 @@ import (
 
 type handlers struct {
 	itemService services.ItemService
+	userService services.UserService
 }
 
 func (h *handlers) getItems(c *gin.Context) {
@@ -28,4 +29,15 @@ func (h *handlers) getItem(c *gin.Context) {
 	item := h.itemService.GetItem(id)
 
 	c.JSON(200, item)
+}
+
+func (h *handlers) postRequest(c *gin.Context) {
+	userId, _ := strconv.Atoi(c.PostForm("userId"))
+	itemId, _ := strconv.Atoi(c.PostForm("itemId"))
+	df, _ := strconv.Atoi(c.PostForm("df"))
+	dt, _ := strconv.Atoi(c.PostForm("dt"))
+
+	res := h.userService.PostRequest(userId, itemId, df, dt)
+
+	c.JSON(200, nil)
 }

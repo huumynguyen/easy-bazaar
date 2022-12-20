@@ -36,6 +36,7 @@ func main() {
 	r := gin.New()
 	r.GET("/items", h.getItems)
 	r.GET("/item", h.getItem) // item?id=123
+	r.POST("/postRequest", h.postRequest)
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
