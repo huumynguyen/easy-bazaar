@@ -8,8 +8,9 @@ import (
 )
 
 func main() {
+	h := handlers{}
 	r := gin.New()
-	r.GET("/", HeathCheck)
+	r.GET("/items", h.getItems)
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
