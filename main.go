@@ -37,6 +37,9 @@ func main() {
 		userService: services.UserService{
 			Client: client,
 		},
+		bazaarService: services.BazaarService{
+			Client: client,
+		},
 	}
 	r := gin.New()
 	r.GET("/items", h.getItems)
