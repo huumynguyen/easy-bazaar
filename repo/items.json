@@ -1,10 +1,11 @@
 [
   {
+    "ID": 1,
     "Item": "Mark Ryden – MOCHILA Backpack",
     "Picture": "https://dl.airtable.com/.attachments/4c1b3b3476c351640ad3eed112482876/58b18f44/Mochila.JPG",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -20,11 +21,12 @@
     "Value": ""
   },
   {
+    "ID": 2,
     "Item": "Picnic Mattress [LOCK&LOCK]",
     "Picture": "https://dl.airtable.com/.attachments/d3201246a47a8c317824be21a6e0875e/2e08c600/mattress.jpg, https://dl.airtable.com/.attachments/7b1c71c279dab0cac444c04126c32240/e9313e45/Mattress2.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "1m8 x 2m",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -40,6 +42,7 @@
     "Value": "K 500"
   },
   {
+    "ID": 3,
     "Item": "Cooking toys (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -60,6 +63,7 @@
     "Value": ""
   },
   {
+    "ID": 4,
     "Item": "Toiletry bag - Grey",
     "Picture": "",
     "Available item": 0,
@@ -80,11 +84,12 @@
     "Value": "K 130"
   },
   {
+    "ID": 5,
     "Item": "Picnic Mattress",
     "Picture": "https://dl.airtable.com/.attachments/e7f3827a672f58ac13d2e9f8e22dd845/7f8919f5/Thamtraipicnic.png",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -100,6 +105,7 @@
     "Value": "K 220"
   },
   {
+    "ID": 6,
     "Item": "Power Bank [XIAOMI] - 10000Mha - grey/black",
     "Picture": "",
     "Available item": 0,
@@ -120,11 +126,12 @@
     "Value": "K 500"
   },
   {
+    "ID": 7,
     "Item": "Lều Quechua 2 second 3 (cỡ lớn)",
     "Picture": "NVG%20Marketplace%20(Borrow%20&%20Rent%20Stuffs)%20(draft)%2005ac8011f554417886d37f513a7938c4/Decathlon_Quechua_2_Second_Fresh_amp_Black_Waterproof_Camping.jpeg, NVG%20Marketplace%20(Borrow%20&%20Rent%20Stuffs)%20(draft)%2005ac8011f554417886d37f513a7938c4/Ubon_2-3_Person_Pop_up_Tent_Instant_Tent_Lightweight_Backpacking.jpeg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Loại lều 2 Seconds có thời gian lắp dựng rất nhanh, hệ thống gấp định hướng Easy hỗ trợ gấp lại ngay tức thì.Lỗ thông hơi, màn chống muỗi và chất vải Fresh & Black giúp cho giấc ngủ ngon.",
     "Category": "Explorer, Outdoor, Travel & Phuot",
     "Condition / Notes": "new",
@@ -140,6 +147,7 @@
     "Value": ""
   },
   {
+    "ID": 8,
     "Item": "Screwdriver Set: 36 Items",
     "Picture": "https://dl.airtable.com/HrPOqZJQ5mm6sRWeomgC_20171103_094736.jpg, https://dl.airtable.com/kdujfjVGRMq880tphQ4n_20171103_094547.jpg",
     "Available item": 0,
@@ -160,6 +168,7 @@
     "Value": "K 100"
   },
   {
+    "ID": 9,
     "Item": "Valise [XIAOMI]",
     "Picture": "",
     "Available item": 0,
@@ -180,11 +189,12 @@
     "Value": "K 2,000"
   },
   {
+    "ID": 10,
     "Item": "Werewolf cards",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -200,6 +210,7 @@
     "Value": ""
   },
   {
+    "ID": 11,
     "Item": "Baby Car Seat [ZARACOS]",
     "Picture": "",
     "Available item": 0,
@@ -220,11 +231,12 @@
     "Value": "K 1,500"
   },
   {
+    "ID": 12,
     "Item": "Bingo (lô-tô)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Bộ gồm 72 phiếu + 90 số + quay lồng nhựa",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -240,11 +252,12 @@
     "Value": "K 180"
   },
   {
+    "ID": 13,
     "Item": "Foldable Clothes Hanger",
     "Picture": "",
     "Available item": 2,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -260,11 +273,12 @@
     "Value": "K 7"
   },
   {
+    "ID": 14,
     "Item": "Captain America Costume for Kids (4-6 yrs old)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -280,11 +294,12 @@
     "Value": ""
   },
   {
+    "ID": 15,
     "Item": "Water Shoes [AQUASHOE] - size 40/41 - dark blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot, Water sports",
     "Condition / Notes": "",
@@ -300,6 +315,7 @@
     "Value": "K 240"
   },
   {
+    "ID": 16,
     "Item": "Baby Swimsuit - size L (5 years old) - blue",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, NVG%20Marketplace%20(Borrow%20&%20Rent%20Stuffs)%20(draft)%2005ac8011f554417886d37f513a7938c4/d34681d8.jpeg, https://dl.airtable.com/.attachments/a2c6fa2cc7c86ccebfd5dfabc4af7917/c03be081/BabySwimsuitsizeL2.jpg",
     "Available item": 0,
@@ -320,11 +336,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 17,
     "Item": "Dartboard",
     "Picture": "https://dl.airtable.com/tQIvhbWrQaq5NBKchdGW_Dartboard%202.png, https://dl.airtable.com/mEPpKBLWSJ6iCMhcIsBS_Dartboard.png",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "It's a challenging game that requires high level of accuracy and a steady hand.",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -340,6 +357,7 @@
     "Value": ""
   },
   {
+    "ID": 18,
     "Item": "Fire Truck (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -360,11 +378,12 @@
     "Value": ""
   },
   {
+    "ID": 19,
     "Item": "Camera tripod",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Photography",
     "Condition / Notes": "",
@@ -380,11 +399,12 @@
     "Value": "K 200"
   },
   {
+    "ID": 20,
     "Item": "Oxford Dolphin Readers - Level 4 - Yesterday, Today & Tomorrow",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -400,6 +420,7 @@
     "Value": ""
   },
   {
+    "ID": 21,
     "Item": "Sling Bag [F1RSH]",
     "Picture": "https://dl.airtable.com/YNEwLkVxQaCexLAp8AeG_phukientphcm.com-balo-deo-cheo-vai-bo-flrsh-3-1000x1000.png, https://dl.airtable.com/hqsQJzkQCSETHzDvuMIX_phukientphcm.com-balo-deo-cheo-vai-bo-flrsh-2-1000x1000.png",
     "Available item": 0,
@@ -420,11 +441,12 @@
     "Value": "K 100"
   },
   {
+    "ID": 22,
     "Item": "Exploding Kittens",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -440,11 +462,12 @@
     "Value": ""
   },
   {
+    "ID": 23,
     "Item": "Backpack [LAPTOPVANG]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Commute",
     "Condition / Notes": "",
@@ -460,6 +483,7 @@
     "Value": ""
   },
   {
+    "ID": 24,
     "Item": "Camera [NIKON 5300 DLSR]",
     "Picture": "",
     "Available item": 0,
@@ -480,11 +504,12 @@
     "Value": "K 10,000"
   },
   {
+    "ID": 25,
     "Item": "Oxford Dolphin Readers - Starters - Monkeying Around",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -500,6 +525,7 @@
     "Value": ""
   },
   {
+    "ID": 26,
     "Item": "Toiletry bag - Orange",
     "Picture": "",
     "Available item": 0,
@@ -520,6 +546,7 @@
     "Value": "K 130"
   },
   {
+    "ID": 27,
     "Item": "Trekking Cap [FORCLAZ]",
     "Picture": "",
     "Available item": 0,
@@ -540,11 +567,12 @@
     "Value": "K 220"
   },
   {
+    "ID": 28,
     "Item": "Oxford Dolphin Readers - Level 1 - Where is it?",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -560,6 +588,7 @@
     "Value": ""
   },
   {
+    "ID": 29,
     "Item": "Phone Stabilizer [ZHIYUN]",
     "Picture": "",
     "Available item": 0,
@@ -580,11 +609,12 @@
     "Value": "K 1,700"
   },
   {
+    "ID": 30,
     "Item": "Oxford Dolphin Readers - Level 2 - Super Sam",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -600,6 +630,7 @@
     "Value": ""
   },
   {
+    "ID": 31,
     "Item": "Heartlake Hotel Lego (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -620,11 +651,12 @@
     "Value": ""
   },
   {
+    "ID": 32,
     "Item": "Animal Rescue Squad Lego",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Lego",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -640,11 +672,12 @@
     "Value": ""
   },
   {
+    "ID": 33,
     "Item": "Backpack [FPT]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Ideal for laptops",
     "Category": "Commute",
     "Condition / Notes": "",
@@ -660,6 +693,7 @@
     "Value": ""
   },
   {
+    "ID": 34,
     "Item": "Foldable Hiking Backpack [VENTURE PAL]",
     "Picture": "",
     "Available item": 0,
@@ -680,11 +714,12 @@
     "Value": "K 530"
   },
   {
+    "ID": 35,
     "Item": "Tennis Rackets for Kids [AOLIKES]",
     "Picture": "https://dl.airtable.com/.attachments/7d1f35b74a7275bf3b514990a27f114c/3c75459e/aolikes2.jpg, https://dl.airtable.com/.attachments/327229e292db9e1e7c2654b3e49e0ad1/e8181eeb/aolikes.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -700,11 +735,12 @@
     "Value": ""
   },
   {
+    "ID": 36,
     "Item": "Tennis Racket [BABOLAT AERO LITE]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "good for training. need to restring.",
     "Category": "Sports & Play",
     "Condition / Notes": "3 months max, for training",
@@ -720,6 +756,7 @@
     "Value": "K 2,000"
   },
   {
+    "ID": 37,
     "Item": "10L Backpack [QUECHUA] - green",
     "Picture": "https://dl.airtable.com/.attachments/be7082af4570121efb2f8bb62293acbb/a93aaa02/41Fr24gmAAL.jpg, https://dl.airtable.com/.attachments/5d89048aff76781bf912e42cae7c5129/cd5942f1/71Szie1BDL._SL1080_.jpg, https://dl.airtable.com/.attachments/755a13b539b5576f8c1172336b08c1c0/26c1946a/51BcU9oUtL.jpg, https://dl.airtable.com/.attachments/dd59a48e50dd4f6c9fd388b4820f4985/ae405f9e/415AbrZ5EwL.jpg, https://dl.airtable.com/.attachments/7dde466027b354273c346bfa75d9088f/9fa95ed7/517nZD0lm-L._SL1024_.jpg, https://dl.airtable.com/.attachments/6e25d5b47ac07f6e74ad0bd215745e01/2f93b7cb/bag.jpg",
     "Available item": 0,
@@ -740,11 +777,12 @@
     "Value": ""
   },
   {
+    "ID": 38,
     "Item": "BÀN GẬP CẮM TRẠI - MH500",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Explorer, Outdoor, Travel & Phuot",
     "Condition / Notes": "",
@@ -760,11 +798,12 @@
     "Value": ""
   },
   {
+    "ID": 39,
     "Item": "25L Waterproof Dry Bag [RYDER]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "it will likely float on water. \n\n25L is big enough for most task.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -780,11 +819,12 @@
     "Value": "K 250"
   },
   {
+    "ID": 40,
     "Item": "Hoodie Sleeping Bag [Nature Hike]",
     "Picture": "https://dl.airtable.com/.attachments/976bd8918203645dac4a1fa8d25b3146/f6a9c26a/tui-ngu-naturehike-NH15S009-D-U150-5.jpg, https://dl.airtable.com/.attachments/67eed8cff1c3746cc712b26a33509750/38164a4c/tui-ngu-naturehike-NH15S009-D-U150-3.jpg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "To enhance your camping experience!",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -800,11 +840,12 @@
     "Value": "K 470"
   },
   {
+    "ID": 41,
     "Item": "Doctor Costume for Kids (8-9 yrs old)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -820,11 +861,12 @@
     "Value": ""
   },
   {
+    "ID": 42,
     "Item": "Soft Archery",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -840,6 +882,7 @@
     "Value": "K 985"
   },
   {
+    "ID": 43,
     "Item": "Toiletry bag - Flowery",
     "Picture": "",
     "Available item": 0,
@@ -860,6 +903,7 @@
     "Value": "K 130"
   },
   {
+    "ID": 44,
     "Item": "60L Duffel Bag [KIPSTA]",
     "Picture": "https://dl.airtable.com/.attachments/1d7e7b792d1dbd868c7c7e5181d6084c/2c767810/football-duffle-bag-kipocket-60-litre-blue-8497814-travel-duffel-original-imafjazjpabjxrzd.jpeg, https://dl.airtable.com/.attachments/4e9414817216212d41cbe65edacd5ade/c2002c6a/football-duffle-bag-kipocket-60-litre-blue-8497814-travel-duffel-original-imafjazjjgqufgsg.jpeg, https://dl.airtable.com/.attachments/98392a98a4b9ce77773e8b87588ef3c1/007df9e6/football-duffle-bag-kipocket-60-litre-blue-8497814-travel-duffel-original-imafjbrbk2gpj6mg.jpeg",
     "Available item": 0,
@@ -880,6 +924,7 @@
     "Value": ""
   },
   {
+    "ID": 45,
     "Item": "Xiaomi Mijia Electric Srewdriver (coming soon)",
     "Picture": "https://dl.airtable.com/.attachments/41788ea584d89d9df816c93443624de3/ab716bd7/Xiaomimijiaelectricscrewdriver.JPG",
     "Available item": 0,
@@ -900,11 +945,12 @@
     "Value": ""
   },
   {
+    "ID": 46,
     "Item": "Drill & Screwdriver Bit Set: 34 Items [BOSCH]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "A variety of bits to make house-fixing way much easier.",
     "Category": "Home & Fixing",
     "Condition / Notes": "",
@@ -920,11 +966,12 @@
     "Value": "K 239"
   },
   {
+    "ID": 47,
     "Item": "Motorbike Helmet - asia blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "extra helmets when you need it, please return it immediately after use.",
     "Category": "Commute, Travel & Phuot",
     "Condition / Notes": "",
@@ -940,11 +987,12 @@
     "Value": "K 168"
   },
   {
+    "ID": 48,
     "Item": "Water shoes - black with colorful pads",
     "Picture": "https://dl.airtable.com/.attachments/3500e0e7e8e94a0bc330c53e69604bc1/938ad413/ImagefromiOS.jpg, https://dl.airtable.com/.attachments/bd06341aeab0c6f9b953f4dca091cc21/d2880985/ImagefromiOS1.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play, Travel & Phuot, Water sports",
     "Condition / Notes": "",
@@ -960,11 +1008,12 @@
     "Value": ""
   },
   {
+    "ID": 49,
     "Item": "ARIRANG Portable Speaker 600 W",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party",
     "Condition / Notes": "",
@@ -980,11 +1029,12 @@
     "Value": "K 6,750"
   },
   {
+    "ID": 50,
     "Item": "21L Portable Ice Bin",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Use this to keep ice or your food & drinks warm or cold",
     "Category": "Event & Party",
     "Condition / Notes": "",
@@ -1000,11 +1050,12 @@
     "Value": "K 360"
   },
   {
+    "ID": 51,
     "Item": "Power Bank [XIAOMI] - 20000mAh - white/black",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "with type-c (input-output), and 2 usb outputs.\n\ngood to have for a trip, you dont worry about out of battery.\n\none device without type-c input/output.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1020,6 +1071,7 @@
     "Value": "K 400"
   },
   {
+    "ID": 52,
     "Item": "Zipper Lock",
     "Picture": "https://dl.airtable.com/.attachments/bcc3594295ff5b19d41be3818a017db2/3b516f13/lock.jpg, https://dl.airtable.com/.attachments/6c53dc340d55dbdfd7241c175c4aacb1/4b6321f8/lock2.jpg",
     "Available item": 0,
@@ -1040,11 +1092,12 @@
     "Value": ""
   },
   {
+    "ID": 53,
     "Item": "Foldable Bucket",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1060,11 +1113,12 @@
     "Value": "K 85"
   },
   {
+    "ID": 54,
     "Item": "(02) Werewolf Cards",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "The ultimate 2020 version of Werewolf: 60 basic cards + 33 extended cards",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -1080,6 +1134,7 @@
     "Value": ""
   },
   {
+    "ID": 55,
     "Item": "Electric Grill [LOCK&LOCK]",
     "Picture": "",
     "Available item": 0,
@@ -1100,6 +1155,7 @@
     "Value": "K 500"
   },
   {
+    "ID": 56,
     "Item": "Word Board Game",
     "Picture": "",
     "Available item": 0,
@@ -1120,11 +1176,12 @@
     "Value": ""
   },
   {
+    "ID": 57,
     "Item": "Hand Blender Xiaomi",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Home & Fixing, health",
     "Condition / Notes": "",
@@ -1140,11 +1197,12 @@
     "Value": ""
   },
   {
+    "ID": 58,
     "Item": "Intellectuality Encyclopedia - Exploration & Creativity",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Bách Khoa Tri Thức Cho Trẻ Em - Khám Phá Và Sáng Tạo\" là cuốn sách bao gồm 150 đề tài thú vị được chia thành 10 chương từ Trái Đất của chúng ta, Thực vật, Động vật, Khủng long, Con người và các vùng đất, Con người qua thời gian cho đến Cơ thể tôi, Khoa học, Không gian và Máy móc; ngoài lượng thông tin dồi dào cuốn sách còn chứa đựng nhiều ý tưởng đặc biệt khiến các em thích thú. Bên cạnh kiến thức, các em sẽ tìm thấy trong đây những sự kiện đáng kinh ngạc, những câu chuyện thần tiên, những câu hỏi khó và đặc biệt là những hoạt động sáng tạo cực kỳ thú vị mà khi thể hiện sẽ khiến bạn bè bất ngờ.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1160,11 +1218,12 @@
     "Value": ""
   },
   {
+    "ID": 59,
     "Item": "Snorkeling Goggles",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "see Coral reef, .. good quality.",
     "Category": "Travel & Phuot, Water sports",
     "Condition / Notes": "",
@@ -1180,11 +1239,12 @@
     "Value": "K 500"
   },
   {
+    "ID": 60,
     "Item": "Toiletry bag - Light blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1200,11 +1260,12 @@
     "Value": "K 130"
   },
   {
+    "ID": 61,
     "Item": "Oxford Dolphin Readers - Level 3 - Uncle Jerry's Great Idea",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1220,6 +1281,7 @@
     "Value": ""
   },
   {
+    "ID": 62,
     "Item": "Baby Stroller [COMBI]",
     "Picture": "",
     "Available item": 0,
@@ -1240,6 +1302,7 @@
     "Value": "K 3,000"
   },
   {
+    "ID": 63,
     "Item": "Glass Cleaning Machine (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -1260,11 +1323,12 @@
     "Value": ""
   },
   {
+    "ID": 64,
     "Item": "PS4",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -1280,6 +1344,7 @@
     "Value": "K 8,780"
   },
   {
+    "ID": 65,
     "Item": "Guitar Picks",
     "Picture": "",
     "Available item": 0,
@@ -1300,11 +1365,12 @@
     "Value": "K 10"
   },
   {
+    "ID": 66,
     "Item": "BOSCH Screwdriver Set 46 Items",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "32 screwdriver bits, 1 screwdriver, 12 screwdriver bits for bolts, 1 magnetic handle",
     "Category": "Home & Fixing",
     "Condition / Notes": "",
@@ -1320,11 +1386,12 @@
     "Value": "K 399"
   },
   {
+    "ID": 67,
     "Item": "Motorbike Helmet - plain black",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "extra helmets when you need it, please return it immediately after use.",
     "Category": "Commute, Travel & Phuot",
     "Condition / Notes": "",
@@ -1340,11 +1407,12 @@
     "Value": "K 200"
   },
   {
+    "ID": 68,
     "Item": "Spider Man Costume for Kids (3-5 yrs old)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -1360,11 +1428,12 @@
     "Value": ""
   },
   {
+    "ID": 69,
     "Item": "Uno Cards",
     "Picture": "",
     "Available item": 2,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "2 hộp bài Uno: mỗi hộp có 108 lá",
     "Category": "Event & Party, Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -1380,11 +1449,12 @@
     "Value": "K 10"
   },
   {
+    "ID": 70,
     "Item": "2 Large Towel & Blanket [NABAJI] - Black",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Ideal for vacations to the beach or pool parties.\nSize: 80 x 130 cm",
     "Category": "Event & Party, Explorer, Outdoor, Travel & Phuot",
     "Condition / Notes": "",
@@ -1400,6 +1470,7 @@
     "Value": ""
   },
   {
+    "ID": 71,
     "Item": "Headband",
     "Picture": "https://dl.airtable.com/.attachments/cfbdf1f669f39c6c8fed662b68c61a11/7ef7e284/Muchumdau.jpg, https://dl.airtable.com/.attachments/fdf5994f573b12382267d4517f870e11/7d78895e/Muchumdau1.jpg",
     "Available item": 0,
@@ -1420,6 +1491,7 @@
     "Value": "K 255"
   },
   {
+    "ID": 72,
     "Item": "Swimming glasses - Black",
     "Picture": "",
     "Available item": 0,
@@ -1440,11 +1512,12 @@
     "Value": "K 100"
   },
   {
+    "ID": 73,
     "Item": "Waterproof Pouch for all Phones - Black",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1460,11 +1533,12 @@
     "Value": "K 130"
   },
   {
+    "ID": 74,
     "Item": "XE ĐẨY HÀNG GẤP GỌN CẮM TRẠI",
     "Picture": "https://dl.airtable.com/.attachments/3184814f60feca0de97dc39e50d86d88/b38ae214/p1749503.jpg, https://dl.airtable.com/.attachments/ef320031a929f7ceb0953209542ef5f4/6e2f80b8/p1749505.jpg, https://dl.airtable.com/.attachments/f5b12542b1f6b0ba103be9989e1bd7f1/b678dfe8/p1749507.jpg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Explorer, Outdoor, Travel & Phuot",
     "Condition / Notes": "",
@@ -1480,11 +1554,12 @@
     "Value": ""
   },
   {
+    "ID": 75,
     "Item": "Xiaomi Eraclean",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "ultrasonic cleaning machine",
     "Category": "Home & Fixing, health",
     "Condition / Notes": "",
@@ -1500,11 +1575,12 @@
     "Value": ""
   },
   {
+    "ID": 76,
     "Item": "Policeman Costume for Kids (6-7 yrs old)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -1520,6 +1596,7 @@
     "Value": ""
   },
   {
+    "ID": 77,
     "Item": "2 in 1 Selfie Stick/-Tripod [XIAOMI]",
     "Picture": "https://dl.airtable.com/iR5GEYiRzCCNangZ5fZX_Xiaomi-Mijia-action-remote-control-selfie-stick.jpg, https://dl.airtable.com/bM7UR2DQTlecNt9I66Fz_Xiaomi-selfie-stick-tripod-4.jpg, https://dl.airtable.com/hFLXI7vwSbqSygkFeEkG_original-xiaomi-mi-selfie-stick-monopod-wired-tripod-bluetooth-remote-tradeshoppe-1703-11-tradeshoppe%401.jpg",
     "Available item": 0,
@@ -1540,11 +1617,12 @@
     "Value": "K 350"
   },
   {
+    "ID": 78,
     "Item": "Magnetic Dart Board",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1560,11 +1638,12 @@
     "Value": ""
   },
   {
+    "ID": 79,
     "Item": "Cajon",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "drum-like music instrument",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -1580,6 +1659,7 @@
     "Value": ""
   },
   {
+    "ID": 80,
     "Item": "Name tag for valises",
     "Picture": "https://dl.airtable.com/.attachments/95ba5685b04b44c67f4b0d74ccb8996c/f4110647/Nametag3.png, https://dl.airtable.com/.attachments/b7fb49155f68d283f58a4f1ff0e07715/8d2f8c75/Nametag2.png, https://dl.airtable.com/.attachments/da4c19114d846a31f23d8d3e9450a24c/e858ee7f/Nametag1.png",
     "Available item": 0,
@@ -1600,11 +1680,12 @@
     "Value": ""
   },
   {
+    "ID": 81,
     "Item": "Waterproof 30L Dry Bag",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "https://www.decathlon.vn/vi/p/8529128_tui-duffel-kin-nuoc-30l-cam.html",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1620,6 +1701,7 @@
     "Value": "K 595"
   },
   {
+    "ID": 82,
     "Item": "Hoverboard Ninebot Mini Pro (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -1640,11 +1722,12 @@
     "Value": ""
   },
   {
+    "ID": 83,
     "Item": "Raincoat",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "",
     "Condition / Notes": "",
@@ -1660,11 +1743,12 @@
     "Value": ""
   },
   {
+    "ID": 84,
     "Item": "02 Ghế gập cắm trại Quechua",
     "Picture": "https://dl.airtable.com/.attachments/65ea0d2f83326bee15260bbcccff0c50/74f53089/p1965898.jpg, https://dl.airtable.com/.attachments/d24fb4f9230c1ce1439cc0f36eac5d5e/62599ecc/p1965891.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Sản phẩm ghế cắm trại nhỏ gọn và dễ sử dụng.Ghế cắm trại dễ sử dụng vượt qua mọi kiểm nghiệm về độ bền của chúng tôi. Loại ghế nhẹ này là giải pháp đơn giản để ngồi, cũng như dễ dàng mang theo.",
     "Category": "Explorer, Outdoor, Travel & Phuot",
     "Condition / Notes": "",
@@ -1680,11 +1764,12 @@
     "Value": ""
   },
   {
+    "ID": 85,
     "Item": "Camping Sleeping Bag",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Anh luckily received this company gift, but he rarely uses this so he'd love to share it with those who wants to borrow :).",
     "Category": "Travel & Phuot",
     "Condition / Notes": "return when requested",
@@ -1700,11 +1785,12 @@
     "Value": "K 45,000,000,000"
   },
   {
+    "ID": 86,
     "Item": "Backpack [XIAOMI] - Blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "not very big and good to carry around during trip or going between hotel and swiss offices.\n\n2 colors to choose: black or blue.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1720,11 +1806,12 @@
     "Value": "K 250"
   },
   {
+    "ID": 87,
     "Item": "Motorbike Helmet - stripy blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "extra helmets when you need it, please return it immediately after use.",
     "Category": "Commute, Travel & Phuot",
     "Condition / Notes": "",
@@ -1740,11 +1827,12 @@
     "Value": "K 200"
   },
   {
+    "ID": 88,
     "Item": "Lego [BUILD-N-LEARN]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "hộp lego",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1760,6 +1848,7 @@
     "Value": ""
   },
   {
+    "ID": 89,
     "Item": "Water Bottle Hook",
     "Picture": "",
     "Available item": 0,
@@ -1780,6 +1869,7 @@
     "Value": "K 25"
   },
   {
+    "ID": 90,
     "Item": "Toiletry bag - Dark blue",
     "Picture": "",
     "Available item": 0,
@@ -1800,6 +1890,7 @@
     "Value": "K 130"
   },
   {
+    "ID": 91,
     "Item": "Guitar Capo",
     "Picture": "",
     "Available item": 0,
@@ -1820,11 +1911,12 @@
     "Value": "K 75"
   },
   {
+    "ID": 92,
     "Item": "Beers of the world",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Other books",
     "Category": "",
     "Condition / Notes": "",
@@ -1840,12 +1932,13 @@
     "Value": ""
   },
   {
+    "ID": 93,
     "Item": "Valise [LOCK&LOCK]",
     "Picture": "https://dl.airtable.com/9Lvui6zQcalodtoGUYc9_vali-keo-co-khoa-so-du-lich-lockamplock-travel-zone-ltz994rtsa-20-inch-1498015817-6639686-01df5dda6fca147e01f9d0e734494249-webp-zoom.jpg, https://dl.airtable.com/0TTE1KFhQcKoQe4xkDF8_vali-keo-co-khoa-so-du-lich-lockamplock-travel-zone-ltz994rtsa-20-inch-1498015817-6639686-93c4dae5c4da74c8b9b8186e75e13f73-webp-zoom%20(1).jpg, https://dl.airtable.com/0VX1wNTjTtam3FBXbKov_vali-keo-co-khoa-so-du-lich-lockamplock-travel-zone-ltz994rtsa-20-inch-1498015817-6639686-f39e8fce48847bf38677dc28d2c5aa20-webp-zoom.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
-    "Description": "'- Lock&lock brand, good quality. \n- Dimensions: 38.5(L) x 56(H) x 22.5(W) cm\n- Weight : 2.7kg\n- Material: ABS/Polycarbonate\n\nPass: 000",
+    "Available status": 1,
+    "Description": "- Lock&lock brand, good quality. \n- Dimensions: 38.5(L) x 56(H) x 22.5(W) cm\n- Weight : 2.7kg\n- Material: ABS/Polycarbonate\n\nPass: 000",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
     "Contact": "NVG",
@@ -1860,11 +1953,12 @@
     "Value": "K 900"
   },
   {
+    "ID": 94,
     "Item": "Oxford Dolphin Readers - Level 2 - Lost",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1880,6 +1974,7 @@
     "Value": ""
   },
   {
+    "ID": 95,
     "Item": "Baby Walker [ZARACOS]",
     "Picture": "",
     "Available item": 0,
@@ -1900,11 +1995,12 @@
     "Value": ""
   },
   {
+    "ID": 96,
     "Item": "Seahorse Chess",
     "Picture": "",
     "Available item": 2,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "cờ cá ngựa",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1920,6 +2016,7 @@
     "Value": ""
   },
   {
+    "ID": 97,
     "Item": "Power Bank [ANKER] - 20000mAh",
     "Picture": "",
     "Available item": 0,
@@ -1940,11 +2037,12 @@
     "Value": "K 1,190"
   },
   {
+    "ID": 98,
     "Item": "Umbrella - Black 3",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -1960,11 +2058,12 @@
     "Value": "K 179"
   },
   {
+    "ID": 99,
     "Item": "Oxford Dolphin Readers - Level 1 - Number Magic",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -1980,11 +2079,12 @@
     "Value": ""
   },
   {
+    "ID": 100,
     "Item": "Big Fixing Set [BOSCH]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "drill, hammer,...",
     "Category": "Home & Fixing",
     "Condition / Notes": "",
@@ -2000,6 +2100,7 @@
     "Value": ""
   },
   {
+    "ID": 101,
     "Item": "Silicone Swim Cap [SPEEDO]",
     "Picture": "",
     "Available item": 0,
@@ -2020,11 +2121,12 @@
     "Value": ""
   },
   {
+    "ID": 102,
     "Item": "binoculars [NIKULA]",
     "Picture": "https://dl.airtable.com/a2AknAQjTbqCJkAaLfy2_HTB1GUgtLXXXXXcvaXXXq6xXFXXX8.jpg, https://dl.airtable.com/KcJ9ADOKSQmwkmZnhMIE_BLACK-Nikula-binoculars-waterproof-10x42-telescope-eagle-waterproof-hd-telescope.jpg, https://dl.airtable.com/XNmeKkwTs2cOUqcfIDM9_SHD-99ong-nhom-chuyen-nghiep-chinh-hang-nikula-10x42--xanh-.jpg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "good for bird watching, 10x42, 1km distance.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2040,11 +2142,12 @@
     "Value": "K 1,000"
   },
   {
+    "ID": 103,
     "Item": "Swimming description glasses (2 degrees)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "2 degree both eyes.",
     "Category": "Water sports",
     "Condition / Notes": "can only borrow for short term like on trip",
@@ -2060,6 +2163,7 @@
     "Value": "K 500"
   },
   {
+    "ID": 104,
     "Item": "Mini Umbrella",
     "Picture": "",
     "Available item": 0,
@@ -2080,6 +2184,7 @@
     "Value": "K 179"
   },
   {
+    "ID": 105,
     "Item": "Trekking Jacket - Denim Blue",
     "Picture": "",
     "Available item": 0,
@@ -2100,6 +2205,7 @@
     "Value": "K 1,010"
   },
   {
+    "ID": 106,
     "Item": "Baby Swimsuit - size S (2 years old)  - orange",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, https://dl.airtable.com/.attachments/7885613066c83e0fc41a1fc25e8fe3be/a389936b/d34681d8.jfif, https://dl.airtable.com/.attachments/42b54077f4d502519c5519e9154a8c3b/71d83cba/BabyswimsuitsizeS.jpg",
     "Available item": 0,
@@ -2120,11 +2226,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 107,
     "Item": "20L Waterproof Dry Bag [OCEAN PACK] - dark blue",
     "Picture": "https://dl.airtable.com/.attachments/f71f71e3ed0b8bbb68e8a3796e44f85f/e4191b0b/TB2nSONa.4WMKJjSspmXXcznpXa_729552362.jpg, https://dl.airtable.com/.attachments/ff3a6389bf841852d6a677691e3d9a28/6a1ea9f9/1987280_L.jpg, https://dl.airtable.com/.attachments/ffb7439cd505f0eb88474a23fc643401/5f38b2f3/20l_water_proof_ocean_pack_1533902903_673929060_progressive.jfif",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2140,11 +2247,12 @@
     "Value": ""
   },
   {
+    "ID": 108,
     "Item": "Lego - Duplo",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -2160,6 +2268,7 @@
     "Value": ""
   },
   {
+    "ID": 109,
     "Item": "Le Lumber playguard 5D",
     "Picture": "",
     "Available item": 0,
@@ -2180,11 +2289,12 @@
     "Value": "K 500"
   },
   {
+    "ID": 110,
     "Item": "Digital Laser Distance Meter Rangefinder",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Home & Fixing",
     "Condition / Notes": "",
@@ -2200,6 +2310,7 @@
     "Value": ""
   },
   {
+    "ID": 111,
     "Item": "Sphygmomanometer (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -2220,6 +2331,7 @@
     "Value": ""
   },
   {
+    "ID": 112,
     "Item": "Big Suitcase [SAMSONITE]",
     "Picture": "https://dl.airtable.com/aryANEadSRC1cEzDaXXy__mg_9634_2.jpg, https://dl.airtable.com/kxOHlaPwQrC1aZYkNzmf__mg_9633_2.jpg, https://dl.airtable.com/TDJP4dUAQAyQIliBr8k4__mg_9632_2.jpg",
     "Available item": 0,
@@ -2240,11 +2352,12 @@
     "Value": "K 5,000"
   },
   {
+    "ID": 113,
     "Item": "Universal Power adaptor",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "can work with any power standard - Converts power outlet when traveling to other countries.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2260,6 +2373,7 @@
     "Value": "K 80"
   },
   {
+    "ID": 114,
     "Item": "Bange-Grande Backpack",
     "Picture": "",
     "Available item": 0,
@@ -2280,6 +2394,7 @@
     "Value": ""
   },
   {
+    "ID": 115,
     "Item": "Induction Hob Xiaomi (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -2300,11 +2415,12 @@
     "Value": ""
   },
   {
+    "ID": 116,
     "Item": "Camera 360 Ricoh Theta S",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "a camera that shoots everything in 360 degrees.",
     "Category": "Photography, Travel & Phuot",
     "Condition / Notes": "",
@@ -2320,11 +2436,12 @@
     "Value": "K 7,000"
   },
   {
+    "ID": 117,
     "Item": "Waterproof Pouch for all Phones - Orange",
     "Picture": "",
     "Available item": 3,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Use this to secure your phone while participating in underwater activities.",
     "Category": "Photography, Travel & Phuot",
     "Condition / Notes": "",
@@ -2340,6 +2457,7 @@
     "Value": "K 195"
   },
   {
+    "ID": 118,
     "Item": "Mobile Router Wifi 4G Huawei E5573 - 150mbps - H E5573",
     "Picture": "",
     "Available item": 0,
@@ -2360,11 +2478,12 @@
     "Value": "K 800"
   },
   {
+    "ID": 119,
     "Item": "Adjustable Bag Strap",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "To hold more carrier bags onto your luggage.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2380,11 +2499,12 @@
     "Value": "K 60"
   },
   {
+    "ID": 120,
     "Item": "Umbrella - Black 1",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2400,6 +2520,7 @@
     "Value": "K 179"
   },
   {
+    "ID": 121,
     "Item": "Khăn trải & lót lều 190x190 cm",
     "Picture": "",
     "Available item": 0,
@@ -2420,11 +2541,12 @@
     "Value": ""
   },
   {
+    "ID": 122,
     "Item": "NERF toy guns",
     "Picture": "https://dl.airtable.com/0NefPatwQ0eSTU63SFK3_Toy%20guns.png, https://dl.airtable.com/ZpMgkU4AQhGnXjXRgxwC_Toy%20guns3.png, https://dl.airtable.com/7guYzpoTxCWNWlAOe7UA_Toy%20guns1.png, https://dl.airtable.com/U6Z6rwtRWmW1EhR40TA9_Toy%20guns2.png",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Have some fun with your kids or in a party. - Rough cut - Retaliator - Rampage - Revonix",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -2440,6 +2562,7 @@
     "Value": "K 1,000"
   },
   {
+    "ID": 123,
     "Item": "Hot Pot Twin Devided Xiaomi (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -2460,11 +2583,12 @@
     "Value": ""
   },
   {
+    "ID": 124,
     "Item": "10L Backpack [QUECHUA] - pink",
     "Picture": "https://dl.airtable.com/.attachments/be7082af4570121efb2f8bb62293acbb/a93aaa02/41Fr24gmAAL.jpg, https://dl.airtable.com/.attachments/5d89048aff76781bf912e42cae7c5129/cd5942f1/71Szie1BDL._SL1080_.jpg, https://dl.airtable.com/.attachments/755a13b539b5576f8c1172336b08c1c0/26c1946a/51BcU9oUtL.jpg, https://dl.airtable.com/.attachments/dd59a48e50dd4f6c9fd388b4820f4985/ae405f9e/415AbrZ5EwL.jpg, https://dl.airtable.com/.attachments/7dde466027b354273c346bfa75d9088f/9fa95ed7/517nZD0lm-L._SL1024_.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2480,6 +2604,7 @@
     "Value": ""
   },
   {
+    "ID": 125,
     "Item": "Oxford Dolphin Readers - Level 3 - Just Like Mine",
     "Picture": "",
     "Available item": 0,
@@ -2500,6 +2625,7 @@
     "Value": ""
   },
   {
+    "ID": 126,
     "Item": "Scooter for kids (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -2520,6 +2646,7 @@
     "Value": ""
   },
   {
+    "ID": 127,
     "Item": "Sling Bag [XIAOMI] - Dark Grey",
     "Picture": "https://dl.airtable.com/NtXBeDESjau5irEisj0g_chest-bag-xiaomi-780x405.jpg, https://dl.airtable.com/tbgBl5i5RX2WLLB1MCtG_20161017153653_49856.jpg, https://dl.airtable.com/Pk3HLoSCqrmIlCr65Ddg_original-xiaomi-mi-multifunctional-urban-leisure-chest-sling-bag-tradeshoppe-1701-14-tradeshoppe%404.jpg, https://dl.airtable.com/RoppjHtISHaK8mgYMWyU_item_XL_24001002_34975673.jpg",
     "Available item": 0,
@@ -2540,11 +2667,12 @@
     "Value": "K 250"
   },
   {
+    "ID": 128,
     "Item": "Spider Man Mask",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -2560,11 +2688,12 @@
     "Value": ""
   },
   {
+    "ID": 129,
     "Item": "Silicone Ear Plugs",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "To prevent water from entering your ears when you swim :)",
     "Category": "Event & Party, Sports & Play, Water sports",
     "Condition / Notes": "",
@@ -2580,11 +2709,12 @@
     "Value": ""
   },
   {
+    "ID": 130,
     "Item": "Foldable Water Cup - blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2600,6 +2730,7 @@
     "Value": "K 90"
   },
   {
+    "ID": 131,
     "Item": "Handheld Vacuum Xiaomi",
     "Picture": "",
     "Available item": 0,
@@ -2620,11 +2751,12 @@
     "Value": ""
   },
   {
+    "ID": 132,
     "Item": "Luggage Tying Net with Hooks (luới ràng đồ xe máy)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2640,11 +2772,12 @@
     "Value": "35k"
   },
   {
+    "ID": 133,
     "Item": "Towel [NABAJI] - Blue copy",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Ideal for vacations to the beach or pool parties.\nSize: 80 x 130 cm",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -2660,11 +2793,12 @@
     "Value": ""
   },
   {
+    "ID": 134,
     "Item": "Jump Ropes",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Made of steel.\nFor exercising/hobby/etc.",
     "Category": "Sports & Play",
     "Condition / Notes": "",
@@ -2680,6 +2814,7 @@
     "Value": "K 75"
   },
   {
+    "ID": 135,
     "Item": "Foldable Water Bottle - yellow",
     "Picture": "",
     "Available item": 0,
@@ -2700,11 +2835,12 @@
     "Value": "K 90"
   },
   {
+    "ID": 136,
     "Item": "Foldable Piano",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "You can borrow for events or to try before buying.",
     "Category": "Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -2720,11 +2856,12 @@
     "Value": ""
   },
   {
+    "ID": 137,
     "Item": "Oxford Dolphin Readers - Starters - A Game of Shapes",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -2740,11 +2877,12 @@
     "Value": ""
   },
   {
+    "ID": 138,
     "Item": "Oxford Dolphin Readers - Level 4 - Up & Down",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Dolphins are interactive graded readers specially designed to make developing language skills fun for younger learners. Full-colour illustrations and cross-curricular content stimulate students' interest and maintain their attention, while carefully graded English introduces them to new language points in an entertaining context. Integrated activities for every page of story text encourage students to practise newly acquired language skills.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -2760,6 +2898,7 @@
     "Value": ""
   },
   {
+    "ID": 139,
     "Item": "VR Box",
     "Picture": "",
     "Available item": 0,
@@ -2780,11 +2919,12 @@
     "Value": "K 100"
   },
   {
+    "ID": 140,
     "Item": "Mini Toy Truck Set (red)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "bộ xe tải cứu hộ, trực thăng,...",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -2800,11 +2940,12 @@
     "Value": ""
   },
   {
+    "ID": 141,
     "Item": "Water Quality Tester",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "health",
     "Condition / Notes": "",
@@ -2820,6 +2961,7 @@
     "Value": ""
   },
   {
+    "ID": 142,
     "Item": "02 Balo  Wet-Dry chống nước cất đồ cá nhân đi biển, bơi lội NatureHike",
     "Picture": "https://dl.airtable.com/.attachments/b542a2cd2d4f881daa816756a38d16fc/9fc19bae/balo-chong-nuoc-NatureHike-NH19SB002-5.jpg, https://dl.airtable.com/.attachments/94a3d81e1bc0815e9a069574e4610337/59667dab/balo-chong-nuoc-NatureHike-NH19SB002-7.jpg, https://dl.airtable.com/.attachments/f0f1f74b769ab02ba09bc00cf82784f2/1c23c9fe/balo-chong-nuoc-NatureHike-NH19SB002-9.jpg, https://dl.airtable.com/.attachments/091bb7d2e623a6b38f75886193f8ae70/ef721348/balo-chong-nuoc-NatureHike-NH19SB002-11.jpg",
     "Available item": 0,
@@ -2840,11 +2982,12 @@
     "Value": ""
   },
   {
+    "ID": 143,
     "Item": "EHON Brain Development Books for Kids (0-6 yrs old)",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "1. Bộ Ehon cáo Ken 3 cuốn , giúp bé phát triển phần não thùy thái dương, có tác dụng cho con phát triển ngôn ngữ, khả năng cảm thụ âm nhạc và học ngoại ngữ\n2. Bộ sách Ehon điều kỳ diệu của Màu sắc: giúp phát triển vùng thùy chẩm - xử lý thị giác và giúp các con tăng khiếu thẩm mỹ, khả năng nghệ thuật\n3. Bộ Ehon điều kỳ diệu của Hình Khối: phát triển vùng thùy đỉnh, vận động, không gian, giúp các con tưởng tượng, tăng khả năng tư duy logic",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -2860,11 +3003,12 @@
     "Value": ""
   },
   {
+    "ID": 144,
     "Item": "Luggage Tying Rope with Hooks (dây ràng đồ xe máy) - Orange",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Home & Fixing, Travel & Phuot",
     "Condition / Notes": "",
@@ -2880,6 +3024,7 @@
     "Value": "K 35"
   },
   {
+    "ID": 145,
     "Item": "3 Gối Hơi",
     "Picture": "https://dl.airtable.com/.attachments/55135546cc77904e01723c98a1dd956c/ad811c53/Tui_Ngu_Decathlon_Quechua_8L_-_857640__ShopTheThao.Org.Org, https://dl.airtable.com/.attachments/a7a205577ff31ab7d0a0c3a44a8133ac/6620bffc/Inflatable_Comfort_Travel_Pillow, https://dl.airtable.com/.attachments/5fbea85c1e47218cdd124aff8cdfc9e6/7d708fdd/Goi_hoi_du_lich_trekking, https://dl.airtable.com/.attachments/8d75af861bfd36c7a9f05714aaf7ff5a/277f8d83/Decathlon_Forclaz_Spork_Gap_Trek_500_-_848687__SportCenter.Vn.Vn",
     "Available item": 0,
@@ -2900,11 +3045,12 @@
     "Value": ""
   },
   {
+    "ID": 146,
     "Item": "Mini First Aid Kit",
     "Picture": "https://dl.airtable.com/.attachments/fa708bba2d6332f8928683b23f17e3ec/394915fe/Tuiyte_2.png, https://dl.airtable.com/.attachments/1a8fe8525bcc18eb77f12dd779cf38db/07e3cd2c/Tuiyte_1.png",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "including medicines - please refill if you use it.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2920,11 +3066,12 @@
     "Value": "K 30"
   },
   {
+    "ID": 147,
     "Item": "Towel [NABAJI] - Blue",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Ideal for vacations to the beach or pool parties.\nSize: 80 x 130 cm",
     "Category": "Event & Party, Sports & Play",
     "Condition / Notes": "",
@@ -2940,11 +3087,12 @@
     "Value": ""
   },
   {
+    "ID": 148,
     "Item": "2 in 1 Inflator/Deflator Electric Pump",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Used to pump camping mattresses, portable pools, floats, etc.",
     "Category": "Event & Party, Sports & Play, Travel & Phuot",
     "Condition / Notes": "",
@@ -2960,11 +3108,12 @@
     "Value": "K 276"
   },
   {
+    "ID": 149,
     "Item": "USB Universal Travel Adapter",
     "Picture": "",
     "Available item": 7,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -2980,11 +3129,12 @@
     "Value": "K 90"
   },
   {
+    "ID": 150,
     "Item": "20L Waterproof Dry Bag [OCEAN PACK]  - orange",
     "Picture": "https://dl.airtable.com/.attachments/f71f71e3ed0b8bbb68e8a3796e44f85f/e4191b0b/TB2nSONa.4WMKJjSspmXXcznpXa_729552362.jpg, https://dl.airtable.com/.attachments/ffb7439cd505f0eb88474a23fc643401/5f38b2f3/20l_water_proof_ocean_pack_1533902903_673929060_progressive.jfif, https://dl.airtable.com/.attachments/319fb2d07c8605905c8dfb3a86d541d0/239aa33a/610a8cffd9265ee339d085d46bdc537b.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3000,6 +3150,7 @@
     "Value": ""
   },
   {
+    "ID": 151,
     "Item": "Foot Massage Machine (coming soon)",
     "Picture": "",
     "Available item": 0,
@@ -3020,6 +3171,7 @@
     "Value": ""
   },
   {
+    "ID": 152,
     "Item": "Baby Swimsuit - size M (3 years old) - yellow with polka dots",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, https://dl.airtable.com/.attachments/fc0d2f95decd6852453c26435074722a/d830c450/d34681d8.jfif, https://dl.airtable.com/.attachments/d31c6cb06650b26b7092f8b5382db0f0/c09883a6/BabySwimsuitsizeM.jpg",
     "Available item": 0,
@@ -3040,11 +3192,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 153,
     "Item": "Foldable 30L Duffel Bag",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3060,11 +3213,12 @@
     "Value": "K 99"
   },
   {
+    "ID": 154,
     "Item": "Water Shoes [AQUASHOE] - size 40/41 - light blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot, Water sports",
     "Condition / Notes": "",
@@ -3080,11 +3234,12 @@
     "Value": "K 189"
   },
   {
+    "ID": 155,
     "Item": "Backpack [MOBILIAR]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3100,11 +3255,12 @@
     "Value": ""
   },
   {
+    "ID": 156,
     "Item": "Mark Ryden- Pathrato III",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3120,11 +3276,12 @@
     "Value": ""
   },
   {
+    "ID": 157,
     "Item": "Electric Balloon Pump",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "For parties such as birthday,...",
     "Category": "Event & Party",
     "Condition / Notes": "",
@@ -3140,6 +3297,7 @@
     "Value": "K 300"
   },
   {
+    "ID": 158,
     "Item": "Giày trượt patin 1 hàng Play 3 cho trẻ em - Hồng/ Tím",
     "Picture": "",
     "Available item": 0,
@@ -3160,6 +3318,7 @@
     "Value": ""
   },
   {
+    "ID": 159,
     "Item": "Acousitc Guitar",
     "Picture": "",
     "Available item": 0,
@@ -3180,11 +3339,12 @@
     "Value": "K 4,020"
   },
   {
+    "ID": 160,
     "Item": "02 Rain coat - blue",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Commute, Travel & Phuot",
     "Condition / Notes": "",
@@ -3200,11 +3360,12 @@
     "Value": ""
   },
   {
+    "ID": 161,
     "Item": "Duffle Bag [QUIKSILVER]",
     "Picture": "https://dl.airtable.com/GgsyagyRSSrfMawnqUyQ_91w%2B5duqO0L._UX425_.jpg, https://dl.airtable.com/fD24UB9QhKKn8dwcPmDt_eqybl03083_mediumshelter%2Cp_kvj0_frt2.jpg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "A big bag for your trip, easy to carry around and very light due to fabric materials.\n\nperfect to carry on plane or check in. \n\nhttps://www.amazon.com/Quiksilver-Medium-Shelter-Duffle-Bag/dp/B01IX8I278\n\n\nThe lock have a pass: 256",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3220,6 +3381,7 @@
     "Value": "K 650"
   },
   {
+    "ID": 162,
     "Item": "Baby Swimsuit - size M (3 years old) - yellow",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, https://dl.airtable.com/.attachments/fc0d2f95decd6852453c26435074722a/d830c450/d34681d8.jfif, https://dl.airtable.com/.attachments/7209b6af98779844d8efe02df667de7c/7dbe727d/BabySwimsuitsizeM2.jpg",
     "Available item": 0,
@@ -3240,11 +3402,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 163,
     "Item": "Nồi chiên không dầu Lock&Lock 10L",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Can fry the whole chicken, good for party.\n\nIf many interested, we can buy this one.",
     "Category": "Event & Party",
     "Condition / Notes": "",
@@ -3260,6 +3423,7 @@
     "Value": ""
   },
   {
+    "ID": 164,
     "Item": "Portable Vacuum cleaner [TOSHIBA]",
     "Picture": "https://dl.airtable.com/uvcGj6UeQd2LiGCGitUk_product_10053_3.png, https://dl.airtable.com/ZylKAWM5Q168wNs5weXE_product_10053_1.png, https://dl.airtable.com/h5H9BsiARXeOXUFbZEos_product_10053_4.png",
     "Available item": 0,
@@ -3280,11 +3444,12 @@
     "Value": "K 9,499"
   },
   {
+    "ID": 165,
     "Item": "Neck Float",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "phao đeo vai & tay cho bé",
     "Category": "Event & Party, Kids & Baby, Sports & Play, Water sports",
     "Condition / Notes": "",
@@ -3300,6 +3465,7 @@
     "Value": ""
   },
   {
+    "ID": 166,
     "Item": "Water-resistant Jacket",
     "Picture": "",
     "Available item": 0,
@@ -3320,6 +3486,7 @@
     "Value": "K 1,265"
   },
   {
+    "ID": 167,
     "Item": "Swim safeguard",
     "Picture": "https://dl.airtable.com/ePHw46ZQ9u1dJylL6XWv_miumamaIMG_425597-900x600.jpg, https://dl.airtable.com/WtWO0pR5RXCrDBKiXbBb_miumama20130322150950_77214.jpg",
     "Available item": 0,
@@ -3340,11 +3507,12 @@
     "Value": "K 183"
   },
   {
+    "ID": 168,
     "Item": "Detox Dummies",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Other books",
     "Category": "health",
     "Condition / Notes": "",
@@ -3360,11 +3528,12 @@
     "Value": ""
   },
   {
+    "ID": 169,
     "Item": "Butterfly Costume for Kids (7-8 yrs old)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -3380,6 +3549,7 @@
     "Value": ""
   },
   {
+    "ID": 170,
     "Item": "Shock Resistant Laptop Bag",
     "Picture": "",
     "Available item": 0,
@@ -3400,11 +3570,12 @@
     "Value": ""
   },
   {
+    "ID": 171,
     "Item": "LCD Drawing Board [XIAOMI]",
     "Picture": "NVG%20Marketplace%20(Borrow%20&%20Rent%20Stuffs)%20(draft)%2005ac8011f554417886d37f513a7938c4/8e58a5fa3ca6feffda7a25e936cdbcdd.jpeg",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Borrow to try if your kids like it, most kids do.\n\nVery smooth to write on.\n\nThe size of our office's board is 13.5 inch, 12-inch boards are also available in the market.\nDon't get cheaper option, they don't look as nice.",
     "Category": "Kids & Baby",
     "Condition / Notes": "",
@@ -3420,11 +3591,12 @@
     "Value": "K 450"
   },
   {
+    "ID": 172,
     "Item": "Swimming Glasses [500 SPIRIT 500]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play, Water sports",
     "Condition / Notes": "",
@@ -3440,6 +3612,7 @@
     "Value": "K 375"
   },
   {
+    "ID": 173,
     "Item": "Baby Swimsuit - size S (2 years old) - pink",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, https://dl.airtable.com/.attachments/7885613066c83e0fc41a1fc25e8fe3be/a389936b/d34681d8.jfif, https://dl.airtable.com/.attachments/947c3d0bc51ffe97e2f283b507d495a7/2be45394/BabyswimsuitsizeS2.jpg",
     "Available item": 0,
@@ -3460,11 +3633,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 174,
     "Item": "Portable Family-sized Pool",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby, Sports & Play, Water sports",
     "Condition / Notes": "",
@@ -3480,6 +3654,7 @@
     "Value": "K 1,950"
   },
   {
+    "ID": 175,
     "Item": "Fixing set [TECHRITE]",
     "Picture": "",
     "Available item": 0,
@@ -3500,6 +3675,7 @@
     "Value": "K 200"
   },
   {
+    "ID": 176,
     "Item": "JBL Partybox On The Go",
     "Picture": "",
     "Available item": 0,
@@ -3520,6 +3696,7 @@
     "Value": ""
   },
   {
+    "ID": 177,
     "Item": "Dust Blower [BOSCH]",
     "Picture": "",
     "Available item": 0,
@@ -3540,11 +3717,12 @@
     "Value": "K 1,580"
   },
   {
+    "ID": 178,
     "Item": "MAVIC Pro Flycam [FOR RENT]",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Mavic Pro, with combo set of 3 batteries.\n\nThe bag contain all items in the combo set except for car-charger, which can request separately.\n\nThere is also a printed manual.",
     "Category": "Photography",
     "Condition / Notes": "Must be trained & practice prior to use.",
@@ -3560,6 +3738,7 @@
     "Value": "K 25,000"
   },
   {
+    "ID": 179,
     "Item": "Sling Bag [XIAOMI] - Light Grey",
     "Picture": "https://dl.airtable.com/NtXBeDESjau5irEisj0g_chest-bag-xiaomi-780x405.jpg, https://dl.airtable.com/tbgBl5i5RX2WLLB1MCtG_20161017153653_49856.jpg, https://dl.airtable.com/Pk3HLoSCqrmIlCr65Ddg_original-xiaomi-mi-multifunctional-urban-leisure-chest-sling-bag-tradeshoppe-1701-14-tradeshoppe%404.jpg, https://dl.airtable.com/RoppjHtISHaK8mgYMWyU_item_XL_24001002_34975673.jpg",
     "Available item": 0,
@@ -3580,11 +3759,12 @@
     "Value": "K 250"
   },
   {
+    "ID": 180,
     "Item": "flashair drive - SD card",
     "Picture": "https://dl.airtable.com/o0e2lG8FSUqwxABMmkqH_1679_toshiba_flashair_iii_16gb_wireless_wifi_class_10_sd_memory_card_2967_517325_1_product.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "you can take off photos via wifi.\n\nCheck with IS24 QC team.",
     "Category": "Photography",
     "Condition / Notes": "",
@@ -3600,11 +3780,12 @@
     "Value": "K 300"
   },
   {
+    "ID": 181,
     "Item": "Pop-up Pirate (Đâm Hải Tặc)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "fun game for all ages!",
     "Category": "Event & Party, Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -3620,6 +3801,7 @@
     "Value": "K 79"
   },
   {
+    "ID": 182,
     "Item": "Baby Swimsuit - size L (5 years old) - yellow",
     "Picture": "https://dl.airtable.com/.attachments/ea35b0d1594e4605d1e58557cc75bf85/ca4b8a48/8642196382_361018341_2048x2048.webp, https://dl.airtable.com/.attachments/8b68e66b9456e4fb6eac811dc9c58357/added2c8/d34681d8.jfif, https://dl.airtable.com/.attachments/4bcc86acf006dbabfeb29430cb4c5248/0d9d7463/BabySwimsuitsizeL.jpg",
     "Available item": 0,
@@ -3640,11 +3822,12 @@
     "Value": "K 340"
   },
   {
+    "ID": 183,
     "Item": "Umbrella - Black 2",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3660,11 +3843,12 @@
     "Value": "K 179"
   },
   {
+    "ID": 184,
     "Item": "Backpack [XIAOMI] - Black",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "not very big and good to carry around during trip or going between hotel and swiss offices.\n\n2 colors to choose: black or blue.",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3680,11 +3864,12 @@
     "Value": "K 250"
   },
   {
+    "ID": 185,
     "Item": "Thang gọn (cao 3.8m, chữ A 1.8m)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Tải trọng 300kg, có thể dùng thang thẳng hoặc chữ A. \n\nThu gọn có thể vận chuyển bằng xe máy.\n\n--\nCó thể order nếu đủ interest.",
     "Category": "Home & Fixing",
     "Condition / Notes": "",
@@ -3700,11 +3885,12 @@
     "Value": ""
   },
   {
+    "ID": 186,
     "Item": "Motorbike Helmet - red",
     "Picture": "",
     "Available item": 0,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "extra helmets when you need it, please return it immediately after use.",
     "Category": "Commute, Travel & Phuot",
     "Condition / Notes": "",
@@ -3720,11 +3906,12 @@
     "Value": "K 200"
   },
   {
+    "ID": 187,
     "Item": "54-piece Jenga (rút gỗ 54 miếng)",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "54 miếng có đánh số + 4 viên xí ngầu",
     "Category": "Event & Party, Kids & Baby, Sports & Play",
     "Condition / Notes": "",
@@ -3740,6 +3927,7 @@
     "Value": "K 100"
   },
   {
+    "ID": 188,
     "Item": "Motorbike Helmet - yamaha black",
     "Picture": "",
     "Available item": 0,
@@ -3760,11 +3948,12 @@
     "Value": "K 200"
   },
   {
+    "ID": 189,
     "Item": "Mark Ryden-Expandos",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Travel & Phuot",
     "Condition / Notes": "",
@@ -3780,11 +3969,12 @@
     "Value": ""
   },
   {
+    "ID": 190,
     "Item": "Captain America Shield for Kids",
     "Picture": "",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Event & Party, Kids & Baby",
     "Condition / Notes": "",
@@ -3800,6 +3990,7 @@
     "Value": ""
   },
   {
+    "ID": 191,
     "Item": "60 in 1 multi-purpose tool (coming soon)",
     "Picture": "https://dl.airtable.com/.attachments/616817b2d9acef90a54f1b165528bda7/b3e59bfa/Multi-purposetools60in1.JPG",
     "Available item": 0,
@@ -3820,11 +4011,12 @@
     "Value": ""
   },
   {
+    "ID": 192,
     "Item": "Kindle Paperwhite (10th Gen)",
     "Picture": "",
     "Available item": 2,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "Reading ebooks. Help to improve English vocabularies",
     "Category": "Sports & Play, Travel & Phuot",
     "Condition / Notes": "",
@@ -3840,11 +4032,12 @@
     "Value": ""
   },
   {
+    "ID": 193,
     "Item": "Water shoes - toe-shaped",
     "Picture": "https://dl.airtable.com/.attachments/c58abaf9e5ac772225234353e43f2dc2/061aa247/ImagefromiOS.jpg, https://dl.airtable.com/.attachments/a9d95d1307fb881d3a0a129881fa9994/d018cc23/ImagefromiOS1.jpg",
     "Available item": 1,
     "Available quantity": "",
-    "Available status": "1",
+    "Available status": 1,
     "Description": "",
     "Category": "Sports & Play, Travel & Phuot, Water sports",
     "Condition / Notes": "",
@@ -3860,6 +4053,7 @@
     "Value": ""
   },
   {
+    "ID": 194,
     "Item": "Rain Jacket",
     "Picture": "",
     "Available item": 0,

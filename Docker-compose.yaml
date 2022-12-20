@@ -1,5 +1,10 @@
 version: '3'
 services:
+  redisdb:
+    image: redis
+    ports:
+      - 6379:6379
+    container_name: redis
   api:
     build:
       dockerfile: Dockerfile
@@ -8,3 +13,5 @@ services:
     ports:
       - 8080:8080
     container_name: easy-bazaar
+    depends_on:
+      - redisdb

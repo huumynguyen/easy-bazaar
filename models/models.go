@@ -5,6 +5,7 @@ import (
 )
 
 type Item struct {
+	ID                int
 	ItemName          string
 	Picture           string
 	AvailableItem     int

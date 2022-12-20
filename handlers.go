@@ -8,6 +8,7 @@ import (
 )
 
 type handlers struct {
+	itemService services.ItemService
 }
 
 func (h *handlers) getItems(c *gin.Context) {
@@ -16,7 +17,7 @@ func (h *handlers) getItems(c *gin.Context) {
 
 	pi, _ := strconv.Atoi(pageIndexParam)
 	ps, _ := strconv.Atoi(pageSizeParam)
-	items := services.GetItems(pi, ps)
+	items := h.itemService.GetItems(pi, ps)
 
 	c.JSON(200, items)
 }
