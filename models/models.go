@@ -5,23 +5,23 @@ import (
 )
 
 type Item struct {
-	ID                int
-	ItemName          string
-	Picture           string
-	AvailableItem     int
-	AvailableQuantity int
-	AvailableStatus   string
-	Description       string
-	Category          string
-	Note              string
-	Contact           string
-	Created           time.Time
-	Duration          string // days
-	Keeper            string
-	WhoIsBorrowing    string
-	Popularity        int
-	PriceDay          string // for borrow
-	ProductLink       string
-	Rating            string
-	Value             string
+	ID                 int
+	Item               string
+	Picture            string
+	AvailableItem      int
+	AvailableQuantity  string
+	AvailableStatus    interface{}
+	Description        string
+	Category           string
+	Note               string
+	Contact            string
+	Created            time.Time
+	Duration           string // days
+	Keeper             string
+	NoteWhoIsBorrowing string
+	Popularity         int
+	PriceDay           interface{} // for borrow
+	ProductLink        string
+	Rating             string
+	Value              string
 }
