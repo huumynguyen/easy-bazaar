@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -27,9 +28,13 @@ func main() {
 		Password: "",
 		DB:       0,
 	})
+	fmt.Printf("ping redis: %s\n", client.Ping(context.Background()).Val())
 
 	h := handlers{
 		itemService: services.ItemService{
+			Client: client,
+		},
+		userService: services.UserService{
 			Client: client,
 		},
 	}

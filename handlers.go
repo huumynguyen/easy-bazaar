@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
@@ -37,7 +38,12 @@ func (h *handlers) postRequest(c *gin.Context) {
 	df, _ := strconv.Atoi(c.PostForm("df"))
 	dt, _ := strconv.Atoi(c.PostForm("dt"))
 
-	res := h.userService.PostRequest(userId, itemId, df, dt)
+	err := h.userService.SaveBorrowedItem(userId, itemId, df, dt)
+	if err != nil {
+		fmt.Println(err)
+		c.JSON(500, nil)
+		return
+	}
 
 	c.JSON(200, nil)
 }

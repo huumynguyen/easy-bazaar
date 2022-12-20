@@ -31,3 +31,10 @@ type User struct {
 	Name int
 	Role string
 }
+
+type UserItem struct {
+	UserId   int
+	ItemId   int
+	FromDate int
+	ToDate   int
+}
