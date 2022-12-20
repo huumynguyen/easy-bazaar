@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"strconv"
 
@@ -12,6 +13,7 @@ import (
 type handlers struct {
 	itemService services.ItemService
 	userService services.UserService
+	services.BazaarService
 }
 
 func (h *handlers) getItems(c *gin.Context) {
@@ -46,4 +48,12 @@ func (h *handlers) postRequest(c *gin.Context) {
 	}
 
 	c.JSON(200, nil)
+}
+
+func (h *handlers) getRequests(c *gin.Context) {
+	userId, _ := strconv.Atoi(c.Query("userId"))
+
+	res := h.GetRequests(context.Background(), userId)
+
+	c.JSON(200, res)
 }
