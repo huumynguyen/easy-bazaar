@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
@@ -10,8 +12,17 @@ import (
 )
 
 func main() {
+	var redisHost string
+	runningMode := os.Getenv("RUNNING_MODE")
+	fmt.Printf("RUNNING_MODE %s\n", runningMode)
+	if runningMode == "production" {
+		redisHost = "redis:6379"
+	} else {
+		redisHost = ":6379"
+	}
+
 	client := redis.NewClient(&redis.Options{
-		Addr:     "redis:6379",
+		Addr:     redisHost,
 		Password: "",
 		DB:       0,
 	})

@@ -15,3 +15,5 @@ services:
     container_name: easy-bazaar
     depends_on:
       - redisdb
+    environment:
+      - RUNNING_MODE=production
