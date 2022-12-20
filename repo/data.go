@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-const listItemFile = `items.json`
+const listItemFile = `repo/items.json`
 
 func ReadDataFile() []byte {
 	fileContent, err := os.Open(listItemFile)

@@ -15,7 +15,7 @@ type Item struct {
 	Note              string
 	Contact           string
 	Created           time.Time
-	Duration          int // days
+	Duration          string // days
 	Keeper            string
 	WhoIsBorrowing    string
 	Popularity        int
