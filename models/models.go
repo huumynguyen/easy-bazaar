@@ -25,3 +25,9 @@ type Item struct {
 	Rating             string
 	Value              string
 }
+
+type User struct {
+	ID   int
+	Name int
+	Role string
+}

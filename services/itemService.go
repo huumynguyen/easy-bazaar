@@ -23,7 +23,7 @@ func (i *ItemService) GetItems(pi, ps int) []models.Item {
 }
 
 func (i *ItemService) getAll() []models.Item {
-	byteResult := repo.ReadDataFile()
+	byteResult := repo.ReadItemsData()
 	var items []models.Item
 	err := json.Unmarshal(byteResult, &items)
 	if err != nil {
