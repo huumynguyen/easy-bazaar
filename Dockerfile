@@ -1,11 +1,12 @@
-FROM golang:latest as builder
+FROM golang:alpine as builder
 WORKDIR /app
 COPY . .
 RUN go mod download
-RUN go build .
-
+RUN go build -o /main
+RUN ls
 FROM alpine:latest
-COPY --from=builder /app/main /app
+WORKDIR /
+COPY --from=builder /main /main
 EXPOSE 8080
-ENTRYPOINT [ "main" ]
+CMD [ "/main" ]
 
