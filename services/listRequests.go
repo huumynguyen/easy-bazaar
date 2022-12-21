@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"strings"
 
 	"github.com/smg/easy-bazaar/models"
 )
@@ -26,11 +27,22 @@ func (b *BazaarService) GetRequests(ctx context.Context, userId int) []models.Us
 		}
 
 		userName := b.GetUser(uq.UserId).Name
-		itemName := b.GetItem(uq.ItemId).Item
+		itemObj := b.GetItem(uq.ItemId)
+		itemName := itemObj.Item
+
+		pics := itemObj.Picture
+		var pic string
+		if pics != `` {
+			arr := strings.Split(pics, ",")
+			if len(arr) > 0 {
+				pic = arr[0]
+			}
+		}
 
 		uqr := models.UserItemResponse{
 			UserName: userName,
 			ItemName: itemName,
+			Picture:  pic,
 			UserItem: uq,
 		}
 
@@ -54,11 +66,22 @@ func (b *BazaarService) GetAllRequests(ctx context.Context) []models.UserItemRes
 		}
 
 		userName := b.GetUser(uq.UserId).Name
-		itemName := b.GetItem(uq.ItemId).Item
+		itemObj := b.GetItem(uq.ItemId)
+		itemName := itemObj.Item
+
+		pics := itemObj.Picture
+		var pic string
+		if pics != `` {
+			arr := strings.Split(pics, ",")
+			if len(arr) > 0 {
+				pic = arr[0]
+			}
+		}
 
 		uqr := models.UserItemResponse{
 			UserName: userName,
 			ItemName: itemName,
+			Picture:  pic,
 			UserItem: uq,
 		}
 
