@@ -25,7 +25,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/getItem": {
+        "/item": {
             "get": {
                 "description": "get item",
                 "consumes": [
@@ -57,7 +57,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/getItems": {
+        "/items": {
             "get": {
                 "description": "get items",
                 "consumes": [
@@ -99,41 +99,6 @@ const docTemplate = `{
                 }
             }
         },
-        "/getUser": {
-            "get": {
-                "description": "Get user",
-                "consumes": [
-                    "application/json"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "tags": [
-                    "Root"
-                ],
-                "summary": "Get user",
-                "parameters": [
-                    {
-                        "type": "integer",
-                        "description": "user id",
-                        "name": "userId",
-                        "in": "query",
-                        "required": true
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "OK",
-                        "schema": {
-                            "type": "array",
-                            "items": {
-                                "$ref": "#/definitions/models.User"
-                            }
-                        }
-                    }
-                }
-            }
-        },
         "/listRequests": {
             "get": {
                 "description": "Get list requests",
@@ -152,8 +117,7 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "user id",
                         "name": "userId",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -201,20 +165,59 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "date to",
                         "name": "df",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "date from",
                         "name": "dt",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "status",
+                        "name": "status",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/user": {
+            "get": {
+                "description": "Get user",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Root"
+                ],
+                "summary": "Get user",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "user id",
+                        "name": "userId",
                         "in": "query",
                         "required": true
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "OK"
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/models.User"
+                            }
+                        }
                     }
                 }
             }
@@ -299,11 +302,18 @@ const docTemplate = `{
         "models.UserItem": {
             "type": "object",
             "properties": {
+                "created": {
+                    "type": "string"
+                },
                 "fromDate": {
                     "type": "integer"
                 },
                 "itemId": {
                     "type": "integer"
+                },
+                "status": {
+                    "description": "Approved, Pending, Rejected",
+                    "type": "string"
                 },
                 "toDate": {
                     "type": "integer"

@@ -51,10 +51,15 @@ definitions:
     type: object
   models.UserItem:
     properties:
+      created:
+        type: string
       fromDate:
         type: integer
       itemId:
         type: integer
+      status:
+        description: Approved, Pending, Rejected
+        type: string
       toDate:
         type: integer
       userId:
@@ -84,7 +89,7 @@ info:
   title: Swagger API easy-bazaar
   version: "1.0"
 paths:
-  /getItem:
+  /item:
     get:
       consumes:
       - application/json
@@ -105,7 +110,7 @@ paths:
       summary: Get item
       tags:
       - Root
-  /getItems:
+  /items:
     get:
       consumes:
       - application/json
@@ -133,29 +138,6 @@ paths:
       summary: Get items
       tags:
       - Root
-  /getUser:
-    get:
-      consumes:
-      - application/json
-      description: Get user
-      parameters:
-      - description: user id
-        in: query
-        name: userId
-        required: true
-        type: integer
-      produces:
-      - application/json
-      responses:
-        "200":
-          description: OK
-          schema:
-            items:
-              $ref: '#/definitions/models.User'
-            type: array
-      summary: Get user
-      tags:
-      - Root
   /listRequests:
     get:
       consumes:
@@ -165,7 +147,6 @@ paths:
       - description: user id
         in: query
         name: userId
-        required: true
         type: integer
       produces:
       - application/json
@@ -198,11 +179,32 @@ paths:
       - description: date to
         in: query
         name: df
-        required: true
         type: integer
       - description: date from
         in: query
         name: dt
+        type: integer
+      - description: status
+        in: query
+        name: status
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Tracking borrowed items
+      tags:
+      - Root
+  /user:
+    get:
+      consumes:
+      - application/json
+      description: Get user
+      parameters:
+      - description: user id
+        in: query
+        name: userId
         required: true
         type: integer
       produces:
@@ -210,7 +212,11 @@ paths:
       responses:
         "200":
           description: OK
-      summary: Tracking borrowed items
+          schema:
+            items:
+              $ref: '#/definitions/models.User'
+            type: array
+      summary: Get user
       tags:
       - Root
 swagger: "2.0"
