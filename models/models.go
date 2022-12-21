@@ -27,9 +27,10 @@ type Item struct {
 }
 
 type User struct {
-	ID   int
-	Name string
-	Role string
+	ID    int
+	Name  string
+	Token string
+	Role  string
 }
 
 type UserItem struct {
