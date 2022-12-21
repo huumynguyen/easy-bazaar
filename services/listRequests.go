@@ -57,7 +57,7 @@ func (b *BazaarService) GetAllRequests(ctx context.Context) []models.UserItemRes
 
 	requests, err := b.Client.Keys(ctx, fmt.Sprintf(models.USER_TRACKING_ID2, "*", "*")).Result()
 	if err != nil {
-		fmt.Printf(`get requests  error %v`, err)
+		fmt.Printf(`get requests error %v`, err)
 		return results
 	}
 

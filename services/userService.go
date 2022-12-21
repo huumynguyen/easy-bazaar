@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"time"
 
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
@@ -45,6 +46,7 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 		FromDate: from,
 		ToDate:   to,
 		Status:   sttt,
+		Created:  time.Now(),
 	}
 
 	resultBytes, _ := json.Marshal(data)
