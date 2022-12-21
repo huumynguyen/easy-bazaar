@@ -59,8 +59,9 @@ func (h *handlers) getItem(c *gin.Context) {
 // @Produce      json
 // @Param userId query int true "user id"
 // @Param itemId query int true "item id"
-// @Param df query int true "date to"
-// @Param dt query int true "date from"
+// @Param df query int false "date to"
+// @Param dt query int false "date from"
+// @Param status query string false "status"
 // @Success      200
 // @Router       /postRequest [POST]
 func (h *handlers) postRequest(c *gin.Context) {
@@ -86,7 +87,7 @@ func (h *handlers) postRequest(c *gin.Context) {
 // @Tags         Root
 // @Accept       json
 // @Produce      json
-// @Param userId query int true "user id"
+// @Param userId query int false "user id"
 // @Success      200 {object} []models.UserItemResponse
 // @Router       /listRequests [get]
 func (h *handlers) getRequests(c *gin.Context) {

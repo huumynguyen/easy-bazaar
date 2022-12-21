@@ -55,9 +55,13 @@ func (b *BazaarService) GetRequests(ctx context.Context, userId int) []models.Us
 func (b *BazaarService) GetAllRequests(ctx context.Context) []models.UserItemResponse {
 	var results = make([]models.UserItemResponse, 0)
 
-	iter := b.Client.Scan(ctx, 0, "prefix:*", 0).Iterator()
-	for iter.Next(ctx) {
-		key := iter.Val()
+	requests, err := b.Client.Keys(ctx, fmt.Sprintf(models.USER_TRACKING_ID2, "*", "*")).Result()
+	if err != nil {
+		fmt.Printf(`get requests  error %v`, err)
+		return results
+	}
+
+	for _, key := range requests {
 		var uq models.UserItem
 		err := json.Unmarshal([]byte(b.Client.Get(ctx, key).Val()), &uq)
 		if err != nil {
