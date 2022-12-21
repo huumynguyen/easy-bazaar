@@ -91,7 +91,27 @@ func (h *handlers) postRequest(c *gin.Context) {
 func (h *handlers) getRequests(c *gin.Context) {
 	userId, _ := strconv.Atoi(c.Query("userId"))
 
-	res := h.bazaarService.GetRequests(context.Background(), userId)
+	if userId > 0 {
+		res := h.bazaarService.GetRequests(context.Background(), userId)
+		c.JSON(200, res)
+	} else {
+		res := h.bazaarService.GetAllRequests(context.Background())
+		c.JSON(200, res)
+	}
+}
 
-	c.JSON(200, res)
+// getUser godoc
+// @Summary      Get user
+// @Description   Get user
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param userId query int true "user id"
+// @Success      200 {object} []models.User
+// @Router       /getUser [get]
+func (h *handlers) getUser(c *gin.Context) {
+	id, _ := strconv.Atoi(c.Query("userId"))
+	item := h.bazaarService.GetUser(id)
+
+	c.JSON(200, item)
 }

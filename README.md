@@ -9,4 +9,5 @@
     3. http://localhost:8080/listRequests?userId=2323"
     4. http://localhost:8080/postRequest" [POST] 
           request body: userId, itemId, df, dt int
+    5. http://localhost:8080/user?userId=2323" [GET]
     

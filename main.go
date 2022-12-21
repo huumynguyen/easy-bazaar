@@ -16,6 +16,11 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
 )
 
+// @title           Swagger API easy-bazaar
+// @version         1.0
+// @description     Swagger API easy-bazaar.
+// @termsOfService  http://swagger.io/terms/
+
 // @contact.name   API Support
 // @contact.url    http://www.swagger.io/support
 // @contact.email  support@swagger.io
@@ -51,6 +56,7 @@ func main() {
 
 	r.GET("/listRequests", h.getRequests) // ?userId=123
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	r.GET("/user", h.getUser) // ?userId=123
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)

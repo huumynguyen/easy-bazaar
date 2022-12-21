@@ -42,5 +42,6 @@ type UserItem struct {
 type UserItemResponse struct {
 	UserName string
 	ItemName string
+	Picture  string
 	UserItem UserItem
 }

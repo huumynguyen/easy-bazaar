@@ -40,6 +40,15 @@ definitions:
       value:
         type: string
     type: object
+  models.User:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      role:
+        type: string
+    type: object
   models.UserItem:
     properties:
       fromDate:
@@ -55,6 +64,8 @@ definitions:
     properties:
       itemName:
         type: string
+      picture:
+        type: string
       userItem:
         $ref: '#/definitions/models.UserItem'
       userName:
@@ -65,9 +76,13 @@ info:
     email: support@swagger.io
     name: API Support
     url: http://www.swagger.io/support
+  description: Swagger API easy-bazaar.
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Swagger API easy-bazaar
+  version: "1.0"
 paths:
   /getItem:
     get:
@@ -116,6 +131,29 @@ paths:
               $ref: '#/definitions/models.Item'
             type: array
       summary: Get items
+      tags:
+      - Root
+  /getUser:
+    get:
+      consumes:
+      - application/json
+      description: Get user
+      parameters:
+      - description: user id
+        in: query
+        name: userId
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/models.User'
+            type: array
+      summary: Get user
       tags:
       - Root
   /listRequests:

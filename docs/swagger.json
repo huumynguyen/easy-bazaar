@@ -1,6 +1,9 @@
 {
     "swagger": "2.0",
     "info": {
+        "description": "Swagger API easy-bazaar.",
+        "title": "Swagger API easy-bazaar",
+        "termsOfService": "http://swagger.io/terms/",
         "contact": {
             "name": "API Support",
             "url": "http://www.swagger.io/support",
@@ -9,7 +12,8 @@
         "license": {
             "name": "Apache 2.0",
             "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-        }
+        },
+        "version": "1.0"
     },
     "paths": {
         "/getItem": {
@@ -80,6 +84,41 @@
                             "type": "array",
                             "items": {
                                 "$ref": "#/definitions/models.Item"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/getUser": {
+            "get": {
+                "description": "Get user",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Root"
+                ],
+                "summary": "Get user",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "user id",
+                        "name": "userId",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/models.User"
                             }
                         }
                     }
@@ -234,6 +273,20 @@
                 }
             }
         },
+        "models.User": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "role": {
+                    "type": "string"
+                }
+            }
+        },
         "models.UserItem": {
             "type": "object",
             "properties": {
@@ -255,6 +308,9 @@
             "type": "object",
             "properties": {
                 "itemName": {
+                    "type": "string"
+                },
+                "picture": {
                     "type": "string"
                 },
                 "userItem": {
