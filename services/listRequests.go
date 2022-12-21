@@ -19,32 +19,7 @@ func (b *BazaarService) GetRequests(ctx context.Context, userId int) []models.Us
 	}
 
 	for _, key := range requests {
-		var uq models.UserItem
-		err := json.Unmarshal([]byte(b.Client.Get(ctx, key).Val()), &uq)
-		if err != nil {
-			fmt.Printf(`unmarshal get requests  error %v`, err)
-			return results
-		}
-
-		userName := b.GetUser(uq.UserId).Name
-		itemObj := b.GetItem(uq.ItemId)
-		itemName := itemObj.Item
-
-		pics := itemObj.Picture
-		var pic string
-		if pics != `` {
-			arr := strings.Split(pics, ",")
-			if len(arr) > 0 {
-				pic = arr[0]
-			}
-		}
-
-		uqr := models.UserItemResponse{
-			UserName: userName,
-			ItemName: itemName,
-			Picture:  pic,
-			UserItem: uq,
-		}
+		uqr := b.buildUserItem(ctx, key)
 
 		results = append(results, uqr)
 	}
@@ -62,34 +37,41 @@ func (b *BazaarService) GetAllRequests(ctx context.Context) []models.UserItemRes
 	}
 
 	for _, key := range requests {
-		var uq models.UserItem
-		err := json.Unmarshal([]byte(b.Client.Get(ctx, key).Val()), &uq)
-		if err != nil {
-			fmt.Printf(`unmarshal get requests  error %v`, err)
-			return results
-		}
-
-		userName := b.GetUser(uq.UserId).Name
-		itemObj := b.GetItem(uq.ItemId)
-		itemName := itemObj.Item
-
-		pics := itemObj.Picture
-		var pic string
-		if pics != `` {
-			arr := strings.Split(pics, ",")
-			if len(arr) > 0 {
-				pic = arr[0]
-			}
-		}
-
-		uqr := models.UserItemResponse{
-			UserName: userName,
-			ItemName: itemName,
-			Picture:  pic,
-			UserItem: uq,
-		}
+		uqr := b.buildUserItem(ctx, key)
 
 		results = append(results, uqr)
 	}
 	return results
+}
+
+func (b *BazaarService) buildUserItem(ctx context.Context, key string) models.UserItemResponse {
+	var uq models.UserItem
+	err := json.Unmarshal([]byte(b.Client.Get(ctx, key).Val()), &uq)
+	if err != nil {
+		fmt.Printf(`unmarshal get requests  error %v`, err)
+		return models.UserItemResponse{}
+	}
+
+	userName := b.GetUser(uq.UserId).Name
+	itemObj := b.GetItem(uq.ItemId)
+	itemName := itemObj.Item
+
+	pics := itemObj.Picture
+	var pic string
+	if pics != `` {
+		arr := strings.Split(pics, ",")
+		if len(arr) > 0 {
+			pic = arr[0]
+		}
+	}
+
+	uqr := models.UserItemResponse{
+		UserName: userName,
+		ItemName: itemName,
+		Picture:  pic,
+		Created:  uq.Created.Format("01/02/2006"),
+		UserItem: uq,
+	}
+
+	return uqr
 }
