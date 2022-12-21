@@ -8,12 +8,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
-
-	_ "github.com/smg/easy-bazaar/docs"
-
-	"github.com/smg/easy-bazaar/services"
 	swaggerFiles "github.com/swaggo/files"     // swagger embed files
 	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
+
+	_ "github.com/smg/easy-bazaar/docs"
+	"github.com/smg/easy-bazaar/services"
 )
 
 // @title           Swagger API easy-bazaar
@@ -57,6 +56,7 @@ func main() {
 	r.GET("/listRequests", h.getRequests) // ?userId=123
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	r.GET("/user", h.getUser) // ?userId=123
+	r.GET("/itembyname", h.GetItemsByName)
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
