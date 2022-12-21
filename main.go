@@ -56,7 +56,7 @@ func main() {
 	r.GET("/listRequests", h.getRequests) // ?userId=123
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	r.GET("/user", h.getUser) // ?userId=123
-	r.GET("/itembyname", h.GetItemsByName)
+	r.GET("/itemsbyname", h.GetItemsByName)
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
