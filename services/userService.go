@@ -9,6 +9,7 @@ import (
 
 	firebase "firebase.google.com/go"
 	"firebase.google.com/go/messaging"
+	"google.golang.org/api/option"
 
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
@@ -68,11 +69,11 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 	var msg map[string]string
 
 	item := i.GetItem(itemId)
-	if requestStatus == models.PendingStatus {
+	if sttt == models.PendingStatus {
 		// get token of admin
 		token = i.GetUser(0).Token
 		msg = map[string]string{
-			"title":   "ahihi",
+			"title":   "New request",
 			"message": fmt.Sprintf(`%v requests to borrow %v`, user.Name, item.Item),
 			"type":    "request", // TODO: this is using for loading pages
 		}
@@ -80,7 +81,7 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 		// get token of user
 		token = user.Token
 		msg = map[string]string{
-			"title":   "ahihi",
+			"title":   "New request",
 			"message": fmt.Sprintf(`The %v you borrowed was %v`, item.Item, sttt),
 			"type":    "request", // TODO: this is using for loading pages
 		}
@@ -93,10 +94,12 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 
 func initializeServiceAccountID(ctx context.Context) *firebase.App {
 	// [START initialize_sdk_with_service_account_id]
+	opt := option.WithCredentialsFile("repo/serviceAccountKey.json")
 	conf := &firebase.Config{
 		ServiceAccountID: "firebase-adminsdk-67qi2@easy-bazaar-nvg.iam.gserviceaccount.com",
+		ProjectID:        "easy-bazaar-nvg",
 	}
-	app, err := firebase.NewApp(ctx, conf)
+	app, err := firebase.NewApp(ctx, conf, opt)
 	if err != nil {
 		log.Fatalf("error initializing app: %v\n", err)
 	}
