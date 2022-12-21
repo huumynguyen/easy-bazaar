@@ -10,6 +10,7 @@
     4. http://localhost:8080/postRequest" [POST] 
           request body: userId, itemId, df, dt int, status enum: Approved, Pending, Rejected (default: Pending)
     5. http://localhost:8080/user?userId=2323" [GET]
+    5. http://localhost:8080/itemsbyname?name=tua [GET]
 
   Swagger:
     1. http://localhost:8080/swagger/index.html

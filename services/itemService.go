@@ -3,6 +3,7 @@ package services
 import (
 	"encoding/json"
 	"log"
+	"strings"
 
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
@@ -37,4 +38,17 @@ func (i *BazaarService) GetItem(id int) models.Item {
 	}
 
 	return models.Item{}
+}
+
+func (i *BazaarService) GetItemsByName(name string) []models.Item {
+	items := i.getAllItems()
+	var res []models.Item
+
+	for _, it := range items {
+		if strings.Contains(it.Item, name) {
+			res = append(res, it)
+		}
+	}
+
+	return res
 }

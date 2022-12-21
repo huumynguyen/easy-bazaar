@@ -117,3 +117,19 @@ func (h *handlers) getUser(c *gin.Context) {
 
 	c.JSON(200, item)
 }
+
+// getItems godoc
+// @Summary      Get items by name
+// @Description  get items by name
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param name query string false "name of item" default(0)
+// @Success      200 {object} []models.Item
+// @Router       /itemsbyname [get]
+func (h *handlers) GetItemsByName(c *gin.Context) {
+
+	items := h.bazaarService.GetItemsByName(c.Query("name"))
+
+	c.JSON(200, items)
+}
