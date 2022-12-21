@@ -81,7 +81,7 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 		// get token of user
 		token = user.Token
 		msg = map[string]string{
-			"title":   "New request",
+			"title":   fmt.Sprintf(`%v request`, sttt),
 			"message": fmt.Sprintf(`The %v you borrowed was %v`, item.Item, sttt),
 			"type":    "request", // TODO: this is using for loading pages
 		}
