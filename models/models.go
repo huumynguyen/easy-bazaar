@@ -37,6 +37,7 @@ type UserItem struct {
 	ItemId   int
 	FromDate int
 	ToDate   int
+	Status   string // Approved, Pending, Rejected
 }
 
 type UserItemResponse struct {

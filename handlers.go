@@ -68,8 +68,9 @@ func (h *handlers) postRequest(c *gin.Context) {
 	itemId, _ := strconv.Atoi(c.PostForm("itemId"))
 	df, _ := strconv.Atoi(c.PostForm("df"))
 	dt, _ := strconv.Atoi(c.PostForm("dt"))
+	st := c.PostForm("status")
 
-	err := h.bazaarService.SaveBorrowedItem(userId, itemId, df, dt)
+	err := h.bazaarService.SaveBorrowedItem(userId, itemId, df, dt, st)
 	if err != nil {
 		fmt.Println(err)
 		c.JSON(500, nil)

@@ -33,13 +33,18 @@ func (i *BazaarService) GetUser(id int) models.User {
 	return models.User{}
 }
 
-func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int) error {
+func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestStatus string) error {
 	trackingId := fmt.Sprintf(models.USER_TRACKING_ID, userId, itemId)
+	var sttt = models.PendingStatus
+	if requestStatus != `` {
+		sttt = requestStatus
+	}
 	data := models.UserItem{
 		UserId:   userId,
 		ItemId:   itemId,
 		FromDate: from,
 		ToDate:   to,
+		Status:   sttt,
 	}
 
 	resultBytes, _ := json.Marshal(data)
