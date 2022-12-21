@@ -55,3 +55,10 @@ func (h *handlers) getRequests(c *gin.Context) {
 
 	c.JSON(200, res)
 }
+
+func (h *handlers) getUser(c *gin.Context) {
+	id, _ := strconv.Atoi(c.Query("userId"))
+	item := h.bazaarService.GetUser(id)
+
+	c.JSON(200, item)
+}

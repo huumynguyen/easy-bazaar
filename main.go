@@ -41,6 +41,7 @@ func main() {
 	r.POST("/postRequest", h.postRequest)
 
 	r.GET("/listRequests", h.getRequests) // ?userId=123
+	r.GET("/user", h.getUser)             // ?userId=123
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
