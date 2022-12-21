@@ -7,6 +7,9 @@ import (
 	"log"
 	"time"
 
+	firebase "firebase.google.com/go"
+	"firebase.google.com/go/messaging"
+
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
 )
@@ -49,12 +52,82 @@ func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int, requestSt
 		Created:  time.Now(),
 	}
 
+	ctx := context.Background()
+
 	resultBytes, _ := json.Marshal(data)
-	status := i.Client.Set(context.Background(), trackingId, string(resultBytes), 0)
+	status := i.Client.Set(ctx, trackingId, string(resultBytes), 0)
 	fmt.Println(status.Val())
 	if status.Val() != "OK" {
 		return fmt.Errorf("error while set redis.")
 	}
 
+	// send to firebase for PN
+	fbApp := initializeServiceAccountID(ctx)
+	user := i.GetUser(userId)
+	var token string
+	var msg map[string]string
+
+	item := i.GetItem(itemId)
+	if requestStatus == models.PendingStatus {
+		// get token of admin
+		token = i.GetUser(0).Token
+		msg = map[string]string{
+			"title":   "ahihi",
+			"message": fmt.Sprintf(`%v requests to borrow %v`, user.Name, item.Item),
+			"type":    "request", // TODO: this is using for loading pages
+		}
+	} else {
+		// get token of user
+		token = user.Token
+		msg = map[string]string{
+			"title":   "ahihi",
+			"message": fmt.Sprintf(`The %v you borrowed was %v`, item.Item, sttt),
+			"type":    "request", // TODO: this is using for loading pages
+		}
+	}
+
+	sendToToken(ctx, fbApp, token, msg)
+
 	return nil
+}
+
+func initializeServiceAccountID(ctx context.Context) *firebase.App {
+	// [START initialize_sdk_with_service_account_id]
+	conf := &firebase.Config{
+		ServiceAccountID: "firebase-adminsdk-67qi2@easy-bazaar-nvg.iam.gserviceaccount.com",
+	}
+	app, err := firebase.NewApp(ctx, conf)
+	if err != nil {
+		log.Fatalf("error initializing app: %v\n", err)
+	}
+	// [END initialize_sdk_with_service_account_id]
+	return app
+}
+
+func sendToToken(ctx context.Context, app *firebase.App, token string, msg map[string]string) {
+	// [START send_to_token_golang]
+	// Obtain a messaging.Client from the App.
+	client, err := app.Messaging(ctx)
+	if err != nil {
+		log.Fatalf("error getting Messaging client: %v\n", err)
+	}
+
+	// This registration token comes from the client FCM SDKs.
+	registrationToken := token
+
+	// See documentation on defining a message payload.
+	message := &messaging.Message{
+		Data:  msg,
+		Token: registrationToken,
+	}
+
+	// Send a message to the device corresponding to the provided
+	// registration token.
+	response, err := client.Send(ctx, message)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	// Response is a message ID string.
+	fmt.Println("Successfully sent message:", response)
+	// [END send_to_token_golang]
 }
