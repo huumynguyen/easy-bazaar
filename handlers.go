@@ -51,9 +51,13 @@ func (h *handlers) postRequest(c *gin.Context) {
 func (h *handlers) getRequests(c *gin.Context) {
 	userId, _ := strconv.Atoi(c.Query("userId"))
 
-	res := h.bazaarService.GetRequests(context.Background(), userId)
-
-	c.JSON(200, res)
+	if userId > 0 {
+		res := h.bazaarService.GetRequests(context.Background(), userId)
+		c.JSON(200, res)
+	} else {
+		res := h.bazaarService.GetAllRequests(context.Background())
+		c.JSON(200, res)
+	}
 }
 
 func (h *handlers) getUser(c *gin.Context) {
