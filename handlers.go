@@ -23,7 +23,7 @@ type handlers struct {
 // @Param pi query int false "page index" default(0)
 // @Param ps query int false "page size" default(20)
 // @Success      200 {object} []models.Item
-// @Router       /getItems [get]
+// @Router       /items [get]
 func (h *handlers) getItems(c *gin.Context) {
 	pageIndexParam := c.DefaultQuery("pi", "0")
 	pageSizeParam := c.DefaultQuery("ps", "10")
@@ -43,7 +43,7 @@ func (h *handlers) getItems(c *gin.Context) {
 // @Produce      json
 // @Param id query int true "item id"
 // @Success      200 {object} models.Item
-// @Router       /getItem [get]
+// @Router       /item [get]
 func (h *handlers) getItem(c *gin.Context) {
 	id, _ := strconv.Atoi(c.Query("id"))
 	item := h.bazaarService.GetItem(id)
@@ -109,7 +109,7 @@ func (h *handlers) getRequests(c *gin.Context) {
 // @Produce      json
 // @Param userId query int true "user id"
 // @Success      200 {object} []models.User
-// @Router       /getUser [get]
+// @Router       /user [get]
 func (h *handlers) getUser(c *gin.Context) {
 	id, _ := strconv.Atoi(c.Query("userId"))
 	item := h.bazaarService.GetUser(id)
