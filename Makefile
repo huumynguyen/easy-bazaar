@@ -5,4 +5,6 @@ up:
 down:
 	docker-compose down
 docker-build:
-	docker build -t easy-bazaar:1.0 .                                
+	docker build -t easy-bazaar:1.0 .    
+swagger:
+	swag init -g main.go --output docs                            

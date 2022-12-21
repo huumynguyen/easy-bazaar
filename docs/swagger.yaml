@@ -1,0 +1,178 @@
+definitions:
+  models.Item:
+    properties:
+      availableItem:
+        type: integer
+      availableQuantity:
+        type: string
+      availableStatus: {}
+      category:
+        type: string
+      contact:
+        type: string
+      created:
+        type: string
+      description:
+        type: string
+      duration:
+        description: days
+        type: string
+      id:
+        type: integer
+      item:
+        type: string
+      keeper:
+        type: string
+      note:
+        type: string
+      noteWhoIsBorrowing:
+        type: string
+      picture:
+        type: string
+      popularity:
+        type: integer
+      priceDay:
+        description: for borrow
+      productLink:
+        type: string
+      rating:
+        type: string
+      value:
+        type: string
+    type: object
+  models.UserItem:
+    properties:
+      fromDate:
+        type: integer
+      itemId:
+        type: integer
+      toDate:
+        type: integer
+      userId:
+        type: integer
+    type: object
+  models.UserItemResponse:
+    properties:
+      itemName:
+        type: string
+      userItem:
+        $ref: '#/definitions/models.UserItem'
+      userName:
+        type: string
+    type: object
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+paths:
+  /getItem:
+    get:
+      consumes:
+      - application/json
+      description: get item
+      parameters:
+      - description: item id
+        in: query
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Item'
+      summary: Get item
+      tags:
+      - Root
+  /getItems:
+    get:
+      consumes:
+      - application/json
+      description: get items
+      parameters:
+      - default: 0
+        description: page index
+        in: query
+        name: pi
+        type: integer
+      - default: 20
+        description: page size
+        in: query
+        name: ps
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/models.Item'
+            type: array
+      summary: Get items
+      tags:
+      - Root
+  /listRequests:
+    get:
+      consumes:
+      - application/json
+      description: Get list requests
+      parameters:
+      - description: user id
+        in: query
+        name: userId
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/models.UserItemResponse'
+            type: array
+      summary: Get list requests
+      tags:
+      - Root
+  /postRequest:
+    post:
+      consumes:
+      - application/json
+      description: Tracking borrowed items
+      parameters:
+      - description: user id
+        in: query
+        name: userId
+        required: true
+        type: integer
+      - description: item id
+        in: query
+        name: itemId
+        required: true
+        type: integer
+      - description: date to
+        in: query
+        name: df
+        required: true
+        type: integer
+      - description: date from
+        in: query
+        name: dt
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Tracking borrowed items
+      tags:
+      - Root
+swagger: "2.0"

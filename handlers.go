@@ -14,6 +14,16 @@ type handlers struct {
 	bazaarService services.BazaarService
 }
 
+// getItems godoc
+// @Summary      Get items
+// @Description  get items
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param pi query int false "page index" default(0)
+// @Param ps query int false "page size" default(20)
+// @Success      200 {object} []models.Item
+// @Router       /getItems [get]
 func (h *handlers) getItems(c *gin.Context) {
 	pageIndexParam := c.DefaultQuery("pi", "0")
 	pageSizeParam := c.DefaultQuery("ps", "10")
@@ -25,6 +35,15 @@ func (h *handlers) getItems(c *gin.Context) {
 	c.JSON(200, items)
 }
 
+// getItem godoc
+// @Summary      Get item
+// @Description  get item
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param id query int true "item id"
+// @Success      200 {object} models.Item
+// @Router       /getItem [get]
 func (h *handlers) getItem(c *gin.Context) {
 	id, _ := strconv.Atoi(c.Query("id"))
 	item := h.bazaarService.GetItem(id)
@@ -32,6 +51,18 @@ func (h *handlers) getItem(c *gin.Context) {
 	c.JSON(200, item)
 }
 
+// postRequest godoc
+// @Summary      Tracking borrowed items
+// @Description  Tracking borrowed items
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param userId query int true "user id"
+// @Param itemId query int true "item id"
+// @Param df query int true "date to"
+// @Param dt query int true "date from"
+// @Success      200
+// @Router       /postRequest [POST]
 func (h *handlers) postRequest(c *gin.Context) {
 	userId, _ := strconv.Atoi(c.PostForm("userId"))
 	itemId, _ := strconv.Atoi(c.PostForm("itemId"))
@@ -48,6 +79,15 @@ func (h *handlers) postRequest(c *gin.Context) {
 	c.JSON(200, nil)
 }
 
+// listRequests godoc
+// @Summary      Get list requests
+// @Description   Get list requests
+// @Tags         Root
+// @Accept       json
+// @Produce      json
+// @Param userId query int true "user id"
+// @Success      200 {object} []models.UserItemResponse
+// @Router       /listRequests [get]
 func (h *handlers) getRequests(c *gin.Context) {
 	userId, _ := strconv.Atoi(c.Query("userId"))
 

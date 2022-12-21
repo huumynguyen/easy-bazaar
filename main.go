@@ -4,15 +4,24 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"net/http"
 	"os"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 
+	_ "github.com/smg/easy-bazaar/docs"
+
 	"github.com/smg/easy-bazaar/services"
+	swaggerFiles "github.com/swaggo/files"     // swagger embed files
+	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
 )
 
+// @contact.name   API Support
+// @contact.url    http://www.swagger.io/support
+// @contact.email  support@swagger.io
+
+// @license.name  Apache 2.0
+// @license.url   http://www.apache.org/licenses/LICENSE-2.0.html
 func main() {
 	var redisHost string
 	runningMode := os.Getenv("RUNNING_MODE")
@@ -41,15 +50,9 @@ func main() {
 	r.POST("/postRequest", h.postRequest)
 
 	r.GET("/listRequests", h.getRequests) // ?userId=123
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}
-}
-
-func HeathCheck(c *gin.Context) {
-	res := map[string]interface{}{
-		"data": "Server is up and running",
-	}
-	c.JSON(http.StatusOK, res)
 }
