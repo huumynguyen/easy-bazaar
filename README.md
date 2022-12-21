@@ -8,5 +8,5 @@
     2. http://localhost:8080/item?id=1
     3. http://localhost:8080/listRequests?userId=2323"
     4. http://localhost:8080/postRequest" [POST] 
-          params: userId, itemId, df, dt int
+          request body: userId, itemId, df, dt int
     

@@ -28,7 +28,7 @@ type Item struct {
 
 type User struct {
 	ID   int
-	Name int
+	Name string
 	Role string
 }
 
@@ -37,4 +37,10 @@ type UserItem struct {
 	ItemId   int
 	FromDate int
 	ToDate   int
+}
+
+type UserItemResponse struct {
+	UserName string
+	ItemName string
+	UserItem UserItem
 }

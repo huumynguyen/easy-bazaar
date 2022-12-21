@@ -31,12 +31,6 @@ func main() {
 	fmt.Printf("ping redis: %s\n", client.Ping(context.Background()).Val())
 
 	h := handlers{
-		itemService: services.ItemService{
-			Client: client,
-		},
-		userService: services.UserService{
-			Client: client,
-		},
 		bazaarService: services.BazaarService{
 			Client: client,
 		},

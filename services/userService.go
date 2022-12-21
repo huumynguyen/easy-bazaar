@@ -6,17 +6,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-redis/redis/v8"
-
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
 )
 
-type UserService struct {
-	Client *redis.Client
-}
-
-func (i *UserService) getAll() []models.User {
+func (i *BazaarService) getAllUsers() []models.User {
 	byteResult := repo.ReadUsersData()
 	var users []models.User
 	err := json.Unmarshal(byteResult, &users)
@@ -27,8 +21,8 @@ func (i *UserService) getAll() []models.User {
 	return users
 }
 
-func (i *UserService) GetUser(id int) models.User {
-	users := i.getAll()
+func (i *BazaarService) GetUser(id int) models.User {
+	users := i.getAllUsers()
 
 	for _, it := range users {
 		if it.ID == id {
@@ -39,7 +33,7 @@ func (i *UserService) GetUser(id int) models.User {
 	return models.User{}
 }
 
-func (i *UserService) SaveBorrowedItem(userId, itemId, from, to int) error {
+func (i *BazaarService) SaveBorrowedItem(userId, itemId, from, to int) error {
 	trackingId := fmt.Sprintf(models.USER_TRACKING_ID, userId, itemId)
 	data := models.UserItem{
 		UserId:   userId,

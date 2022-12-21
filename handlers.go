@@ -11,8 +11,6 @@ import (
 )
 
 type handlers struct {
-	itemService   services.ItemService
-	userService   services.UserService
 	bazaarService services.BazaarService
 }
 
@@ -22,14 +20,14 @@ func (h *handlers) getItems(c *gin.Context) {
 
 	pi, _ := strconv.Atoi(pageIndexParam)
 	ps, _ := strconv.Atoi(pageSizeParam)
-	items := h.itemService.GetItems(pi, ps)
+	items := h.bazaarService.GetItems(pi, ps)
 
 	c.JSON(200, items)
 }
 
 func (h *handlers) getItem(c *gin.Context) {
 	id, _ := strconv.Atoi(c.Query("id"))
-	item := h.itemService.GetItem(id)
+	item := h.bazaarService.GetItem(id)
 
 	c.JSON(200, item)
 }
@@ -40,7 +38,7 @@ func (h *handlers) postRequest(c *gin.Context) {
 	df, _ := strconv.Atoi(c.PostForm("df"))
 	dt, _ := strconv.Atoi(c.PostForm("dt"))
 
-	err := h.userService.SaveBorrowedItem(userId, itemId, df, dt)
+	err := h.bazaarService.SaveBorrowedItem(userId, itemId, df, dt)
 	if err != nil {
 		fmt.Println(err)
 		c.JSON(500, nil)

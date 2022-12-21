@@ -4,25 +4,19 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/go-redis/redis/v8"
-
 	"github.com/smg/easy-bazaar/models"
 	"github.com/smg/easy-bazaar/repo"
 )
 
-type ItemService struct {
-	Client *redis.Client
-}
-
-func (i *ItemService) GetItems(pi, ps int) []models.Item {
-	items := i.getAll()
+func (i *BazaarService) GetItems(pi, ps int) []models.Item {
+	items := i.getAllItems()
 	fromIndex := pi * ps
 	toIndex := fromIndex + ps
 
 	return items[fromIndex:toIndex]
 }
 
-func (i *ItemService) getAll() []models.Item {
+func (i *BazaarService) getAllItems() []models.Item {
 	byteResult := repo.ReadItemsData()
 	var items []models.Item
 	err := json.Unmarshal(byteResult, &items)
@@ -33,8 +27,8 @@ func (i *ItemService) getAll() []models.Item {
 	return items
 }
 
-func (i *ItemService) GetItem(id int) models.Item {
-	items := i.getAll()
+func (i *BazaarService) GetItem(id int) models.Item {
+	items := i.getAllItems()
 
 	for _, it := range items {
 		if it.ID == id {
